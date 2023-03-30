@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+
+    <title>Traders Alloy</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/hmac-sha256.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/enc-base64-min.js"></script>
+    <script>
+        var hash = CryptoJS.HmacSHA256("Message", "secret");
+        var hashInHex = CryptoJS.enc.Hex.stringify(hash);
+        // document.write(hashInHex); // aa747c502a898200f9e4fa21bac68136f886a0e27aec70ba06daf2e2a5cb5597
+    </script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,700|Rubik:300,400,500" rel="stylesheet">
+
+    <!-- pe-icon-7 Css-->
+    <link rel="stylesheet" type="text/css" href="/css/pe-icon-7-stroke.css" />
+
+    <!--Material Icon -->
+    <link rel="stylesheet" type="text/css" href="/css/materialdesignicons.min.css" />
+
+    <!-- Bootstrap Css-->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/colors/red.css" id="settingOption">
+    <!-- JAVASCRIPTS -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://js.stripe.com/v3/"></script>
+
+    <script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/all.js"></script>
+
+
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="https://www.googletagmanager.com/gtag/js?id=UA-158211380-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-158211380-1');
+    </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '428148861455484');
+        fbq('track', 'PageView');
+    </script>
+
+
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=428148861455484&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+
+<body data-spy="scroll" data-target="#navbarCollapse" data-hijacking="on" data-animation="scaleDown">
+    <noscript>
+    <strong>We're sorry but Dorsin doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+    <div id="traderApp">
+    </div>
+    <!-- built files will be auto injected -->
+</body>
+
+
+
+
+<script>
+    export default {
+        name: 'app',
+        data() {
+            return {
+                config: {
+                    events: {
+                        'froalaEditor.initialized': function() {
+                            console.log('initialized')
+                        }
+                    }
+                },
+                model: 'Edit Your Content Here!'
+            }
+        }
+    }
+</script>
+
+</html>

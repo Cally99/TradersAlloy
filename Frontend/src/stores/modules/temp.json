@@ -1,0 +1,3486 @@
+[
+    {
+        "id": 3,
+        "parentid": 0,
+        "name": "3: List C",
+        "children": [
+            {
+                "id": 3813378,
+                "parentid": 3,
+                "name": "3813378: Healthcare",
+                "children": [
+                    {
+                        "id": 3813423,
+                        "parentid": 3813378,
+                        "name": "3813423: Medical Diagnostics & Research",
+                        "children": [
+                            {
+                                "id": 3813335,
+                                "parentid": 3813423,
+                                "name": "3813335: Diagnostics & Research"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813447,
+                        "parentid": 3813378,
+                        "name": "3813447: Drug Manufacturers",
+                        "children": [
+                            {
+                                "id": 3813417,
+                                "parentid": 3813447,
+                                "name": "3813417: Drug Manufacturers - Specialty & Generic"
+                            },
+                            {
+                                "id": 3813355,
+                                "parentid": 3813447,
+                                "name": "3813355: Drug Manufacturers - Major"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813483,
+                        "parentid": 3813378,
+                        "name": "3813483: Medical Distribution",
+                        "children": [
+                            {
+                                "id": 3813455,
+                                "parentid": 3813483,
+                                "name": "3813455: Medical Distribution"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813405,
+                        "parentid": 3813378,
+                        "name": "3813405: Biotechnology",
+                        "children": [
+                            {
+                                "id": 3813362,
+                                "parentid": 3813405,
+                                "name": "3813362: Biotechnology"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813340,
+                        "parentid": 3813378,
+                        "name": "3813340: Medical Instruments & Equipment"
+                    },
+                    {
+                        "id": 3813425,
+                        "parentid": 3813378,
+                        "name": "3813425: Healthcare Providers",
+                        "children": [
+                            {
+                                "id": 3813382,
+                                "parentid": 3813425,
+                                "name": "3813382: Medical Care"
+                            },
+                            {
+                                "id": 3813424,
+                                "parentid": 3813425,
+                                "name": "3813424: Long-Term Care Facilities"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813341,
+                        "parentid": 3813378,
+                        "name": "3813341: Healthcare Plans"
+                    },
+                    {
+                        "id": 3813435,
+                        "parentid": 3813378,
+                        "name": "3813435: Medical Devices",
+                        "children": [
+                            {
+                                "id": 3813377,
+                                "parentid": 3813435,
+                                "name": "3813377: Medical Devices"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3813525,
+                "parentid": 3,
+                "name": "3813525: Energy",
+                "children": [
+                    {
+                        "id": 3813450,
+                        "parentid": 3813525,
+                        "name": "3813450: Oil & Gas - Integrated"
+                    },
+                    {
+                        "id": 3813466,
+                        "parentid": 3813525,
+                        "name": "3813466: Oil & Gas - Drilling"
+                    },
+                    {
+                        "id": 3813373,
+                        "parentid": 3813525,
+                        "name": "3813373: Oil & Gas - E&P"
+                    },
+                    {
+                        "id": 3813514,
+                        "parentid": 3813525,
+                        "name": "3813514: Oil & Gas - Refining & Marketing"
+                    },
+                    {
+                        "id": 3813490,
+                        "parentid": 3813525,
+                        "name": "3813490: Oil & Gas - Services"
+                    },
+                    {
+                        "id": 3813526,
+                        "parentid": 3813525,
+                        "name": "3813526: Oil & Gas - Midstream",
+                        "children": [
+                            {
+                                "id": 3813453,
+                                "parentid": 3813526,
+                                "name": "3813453: Oil & Gas Midstream"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3813452,
+                "parentid": 3,
+                "name": "3813452: Financial Services",
+                "children": [
+                    {
+                        "id": 3813380,
+                        "parentid": 3813452,
+                        "name": "3813380: Asset Management"
+                    },
+                    {
+                        "id": 3813334,
+                        "parentid": 3813452,
+                        "name": "3813334: Insurance - Life"
+                    },
+                    {
+                        "id": 3813446,
+                        "parentid": 3813452,
+                        "name": "3813446: Credit Services"
+                    },
+                    {
+                        "id": 3813343,
+                        "parentid": 3813452,
+                        "name": "3813343: Insurance - Property & Casualty"
+                    },
+                    {
+                        "id": 3813413,
+                        "parentid": 3813452,
+                        "name": "3813413: Banks"
+                    },
+                    {
+                        "id": 3813509,
+                        "parentid": 3813452,
+                        "name": "3813509: Brokers & Exchanges",
+                        "children": [
+                            {
+                                "id": 3813325,
+                                "parentid": 3813509,
+                                "name": "3813325: Insurance Brokers"
+                            },
+                            {
+                                "id": 3813385,
+                                "parentid": 3813509,
+                                "name": "3813385: Financial Exchanges"
+                            },
+                            {
+                                "id": 3813428,
+                                "parentid": 3813509,
+                                "name": "3813428: Capital Markets"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813518,
+                        "parentid": 3813452,
+                        "name": "3813518: Insurance - Specialty",
+                        "children": [
+                            {
+                                "id": 3813415,
+                                "parentid": 3813518,
+                                "name": "3813415: Insurance - Reinsurance"
+                            },
+                            {
+                                "id": 3813458,
+                                "parentid": 3813518,
+                                "name": "3813458: Insurance - Specialty"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813440,
+                        "parentid": 3813452,
+                        "name": "3813440: Insurance"
+                    }
+                ]
+            },
+            {
+                "id": 3813449,
+                "parentid": 3,
+                "name": "3813449: Technology",
+                "children": [
+                    {
+                        "id": 3813365,
+                        "parentid": 3813449,
+                        "name": "3813365: Semiconductors"
+                    },
+                    {
+                        "id": 3813502,
+                        "parentid": 3813449,
+                        "name": "3813502: Online Media",
+                        "children": [
+                            {
+                                "id": 3813507,
+                                "parentid": 3813502,
+                                "name": "3813507: Internet Content & Information"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813499,
+                        "parentid": 3813449,
+                        "name": "3813499: Application Software",
+                        "children": [
+                            {
+                                "id": 3813482,
+                                "parentid": 3813499,
+                                "name": "3813482: Software - Application"
+                            },
+                            {
+                                "id": 3813348,
+                                "parentid": 3813499,
+                                "name": "3813348: Software - Infrastructure"
+                            },
+                            {
+                                "id": 3813503,
+                                "parentid": 3813499,
+                                "name": "3813503: Electronic Gaming & Multimedia"
+                            },
+                            {
+                                "id": 3813393,
+                                "parentid": 3813499,
+                                "name": "3813393: Information Technology Services"
+                            },
+                            {
+                                "id": 3813351,
+                                "parentid": 3813499,
+                                "name": "3813351: Health Information Services"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813414,
+                        "parentid": 3813449,
+                        "name": "3813414: Communication Equipment"
+                    },
+                    {
+                        "id": 3813352,
+                        "parentid": 3813449,
+                        "name": "3813352: Computer Hardware"
+                    }
+                ]
+            },
+            {
+                "id": 3813364,
+                "parentid": 3,
+                "name": "3813364: Real Estate",
+                "children": [
+                    {
+                        "id": 3813524,
+                        "parentid": 3813364,
+                        "name": "3813524: Real Estate Services",
+                        "children": [
+                            {
+                                "id": 3813515,
+                                "parentid": 3813524,
+                                "name": "3813515: Real Estate - General"
+                            },
+                            {
+                                "id": 3813323,
+                                "parentid": 3813524,
+                                "name": "3813323: Real Estate Services"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813418,
+                        "parentid": 3813364,
+                        "name": "3813418: REITs",
+                        "children": [
+                            {
+                                "id": 3813543,
+                                "parentid": 3813418,
+                                "name": "3813543: REIT - Healthcare Facilities"
+                            },
+                            {
+                                "id": 3813546,
+                                "parentid": 3813418,
+                                "name": "3813546: REIT - Hotel & Motel"
+                            },
+                            {
+                                "id": 3813357,
+                                "parentid": 3813418,
+                                "name": "3813357: REIT - Diversified"
+                            },
+                            {
+                                "id": 3813326,
+                                "parentid": 3813418,
+                                "name": "3813326: REIT - Industrial"
+                            },
+                            {
+                                "id": 3813399,
+                                "parentid": 3813418,
+                                "name": "3813399: REIT - Office"
+                            },
+                            {
+                                "id": 3813548,
+                                "parentid": 3813418,
+                                "name": "3813548: REIT - Residential"
+                            },
+                            {
+                                "id": 3813366,
+                                "parentid": 3813418,
+                                "name": "3813366: REIT - Retail"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3813404,
+                "parentid": 3,
+                "name": "3813404: Utilities",
+                "children": [
+                    {
+                        "id": 3813433,
+                        "parentid": 3813404,
+                        "name": "3813433: Utilities - Regulated",
+                        "children": [
+                            {
+                                "id": 3813383,
+                                "parentid": 3813433,
+                                "name": "3813383: Utilities - Diversified"
+                            },
+                            {
+                                "id": 3813407,
+                                "parentid": 3813433,
+                                "name": "3813407: Utilities - Regulated Water"
+                            },
+                            {
+                                "id": 3813537,
+                                "parentid": 3813433,
+                                "name": "3813537: Utilities - Regulated Electric"
+                            },
+                            {
+                                "id": 3813330,
+                                "parentid": 3813433,
+                                "name": "3813330: Utilities - Regulated Gas"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813430,
+                        "parentid": 3813404,
+                        "name": "3813430: Utilities - Independent Power Producers",
+                        "children": [
+                            {
+                                "id": 3813460,
+                                "parentid": 3813430,
+                                "name": "3813460: Utilities - Independent Power Producers"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3813468,
+                "parentid": 3,
+                "name": "3813468: Consumer Cyclical",
+                "children": [
+                    {
+                        "id": 3813523,
+                        "parentid": 3813468,
+                        "name": "3813523: Restaurants",
+                        "children": [
+                            {
+                                "id": 3813474,
+                                "parentid": 3813523,
+                                "name": "3813474: Restaurants"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813461,
+                        "parentid": 3813468,
+                        "name": "3813461: Personal Services"
+                    },
+                    {
+                        "id": 3813528,
+                        "parentid": 3813468,
+                        "name": "3813528: Advertising & Marketing Services",
+                        "children": [
+                            {
+                                "id": 3813530,
+                                "parentid": 3813528,
+                                "name": "3813530: Advertising Agencies"
+                            },
+                            {
+                                "id": 3813497,
+                                "parentid": 3813528,
+                                "name": "3813497: Marketing Services"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813412,
+                        "parentid": 3813468,
+                        "name": "3813412: Autos"
+                    },
+                    {
+                        "id": 3813475,
+                        "parentid": 3813468,
+                        "name": "3813475: Packaging & Containers",
+                        "children": [
+                            {
+                                "id": 3813359,
+                                "parentid": 3813475,
+                                "name": "3813359: Packaging & Containers"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813374,
+                        "parentid": 3813468,
+                        "name": "3813374: Publishing"
+                    },
+                    {
+                        "id": 3813375,
+                        "parentid": 3813468,
+                        "name": "3813375: Manufacturing - Apparel & Furniture"
+                    },
+                    {
+                        "id": 3813431,
+                        "parentid": 3813468,
+                        "name": "3813431: Entertainment"
+                    },
+                    {
+                        "id": 3813501,
+                        "parentid": 3813468,
+                        "name": "3813501: Homebuilding & Construction",
+                        "children": [
+                            {
+                                "id": 3813360,
+                                "parentid": 3813501,
+                                "name": "3813360: Textile Manufacturing"
+                            },
+                            {
+                                "id": 3813478,
+                                "parentid": 3813501,
+                                "name": "3813478: Residential Construction"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813402,
+                        "parentid": 3813468,
+                        "name": "3813402: Retail - Apparel & Specialty"
+                    },
+                    {
+                        "id": 3813495,
+                        "parentid": 3813468,
+                        "name": "3813495: Travel & Leisure",
+                        "children": [
+                            {
+                                "id": 3813396,
+                                "parentid": 3813495,
+                                "name": "3813396: Lodging"
+                            },
+                            {
+                                "id": 3813392,
+                                "parentid": 3813495,
+                                "name": "3813392: Gambling"
+                            },
+                            {
+                                "id": 3813387,
+                                "parentid": 3813495,
+                                "name": "3813387: Resorts & Casinos"
+                            },
+                            {
+                                "id": 3813538,
+                                "parentid": 3813495,
+                                "name": "3813538: Leisure"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3813342,
+                "parentid": 3,
+                "name": "3813342: Industrials",
+                "children": [
+                    {
+                        "id": 3813358,
+                        "parentid": 3813342,
+                        "name": "3813358: Truck Manufacturing",
+                        "children": [
+                            {
+                                "id": 3813471,
+                                "parentid": 3813358,
+                                "name": "3813471: Truck Manufacturing"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813508,
+                        "parentid": 3813342,
+                        "name": "3813508: Business Services",
+                        "children": [
+                            {
+                                "id": 3813416,
+                                "parentid": 3813508,
+                                "name": "3813416: Business Services"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813384,
+                        "parentid": 3813342,
+                        "name": "3813384: Industrial Distribution",
+                        "children": [
+                            {
+                                "id": 3813333,
+                                "parentid": 3813384,
+                                "name": "3813333: Industrial Distribution"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813534,
+                        "parentid": 3813342,
+                        "name": "3813534: Consulting & Outsourcing",
+                        "children": [
+                            {
+                                "id": 3813376,
+                                "parentid": 3813534,
+                                "name": "3813376: Security & Protection Services"
+                            },
+                            {
+                                "id": 3813442,
+                                "parentid": 3813534,
+                                "name": "3813442: Rental & Leasing Services"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813456,
+                        "parentid": 3813342,
+                        "name": "3813456: Transportation & Logistics",
+                        "children": [
+                            {
+                                "id": 3813429,
+                                "parentid": 3813456,
+                                "name": "3813429: Railroads"
+                            },
+                            {
+                                "id": 3813516,
+                                "parentid": 3813456,
+                                "name": "3813516: Integrated Shipping & Logistics"
+                            },
+                            {
+                                "id": 3813506,
+                                "parentid": 3813456,
+                                "name": "3813506: Shipping & Ports"
+                            },
+                            {
+                                "id": 3813544,
+                                "parentid": 3813456,
+                                "name": "3813544: Trucking"
+                            },
+                            {
+                                "id": 3813519,
+                                "parentid": 3813456,
+                                "name": "3813519: Airports & Air Services"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813454,
+                        "parentid": 3813342,
+                        "name": "3813454: Waste Management",
+                        "children": [
+                            {
+                                "id": 3813533,
+                                "parentid": 3813454,
+                                "name": "3813533: Waste Management"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813445,
+                        "parentid": 3813342,
+                        "name": "3813445: Engineering & Construction",
+                        "children": [
+                            {
+                                "id": 3813338,
+                                "parentid": 3813445,
+                                "name": "3813338: Infrastructure Operations"
+                            },
+                            {
+                                "id": 3813494,
+                                "parentid": 3813445,
+                                "name": "3813494: Engineering & Construction"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813438,
+                        "parentid": 3813342,
+                        "name": "3813438: Aerospace & Defense",
+                        "children": [
+                            {
+                                "id": 3813535,
+                                "parentid": 3813438,
+                                "name": "3813535: Aerospace & Defense"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813350,
+                        "parentid": 3813342,
+                        "name": "3813350: Airlines",
+                        "children": [
+                            {
+                                "id": 3813486,
+                                "parentid": 3813350,
+                                "name": "3813486: Airlines"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813411,
+                        "parentid": 3813342,
+                        "name": "3813411: Farm & Construction Machinery",
+                        "children": [
+                            {
+                                "id": 3813327,
+                                "parentid": 3813411,
+                                "name": "3813327: Farm & Construction Equipment"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813369,
+                        "parentid": 3813342,
+                        "name": "3813369: Conglomerates",
+                        "children": [
+                            {
+                                "id": 3813395,
+                                "parentid": 3813369,
+                                "name": "3813395: Conglomerates"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813397,
+                        "parentid": 3813342,
+                        "name": "3813397: Employment Services",
+                        "children": [
+                            {
+                                "id": 3813491,
+                                "parentid": 3813397,
+                                "name": "3813491: Staffing & Outsourcing Services"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813505,
+                        "parentid": 3813342,
+                        "name": "3813505: Industrial Products",
+                        "children": [
+                            {
+                                "id": 3813469,
+                                "parentid": 3813505,
+                                "name": "3813469: Metal Fabrication"
+                            },
+                            {
+                                "id": 3813492,
+                                "parentid": 3813505,
+                                "name": "3813492: Tools & Accessories"
+                            },
+                            {
+                                "id": 3813441,
+                                "parentid": 3813505,
+                                "name": "3813441: Pollution & Treatment Controls"
+                            },
+                            {
+                                "id": 3813353,
+                                "parentid": 3813505,
+                                "name": "3813353: Diversified Industrials"
+                            },
+                            {
+                                "id": 3813398,
+                                "parentid": 3813505,
+                                "name": "3813398: Business Equipment"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3813426,
+                "parentid": 3,
+                "name": "3813426: Communication Services",
+                "children": [
+                    {
+                        "id": 3813498,
+                        "parentid": 3813426,
+                        "name": "3813498: Communication Services",
+                        "children": [
+                            {
+                                "id": 3813386,
+                                "parentid": 3813498,
+                                "name": "3813386: Telecom Services"
+                            },
+                            {
+                                "id": 3813361,
+                                "parentid": 3813498,
+                                "name": "3813361: Pay TV"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3813328,
+                "parentid": 3,
+                "name": "3813328: Consumer Defensive",
+                "children": [
+                    {
+                        "id": 3813347,
+                        "parentid": 3813328,
+                        "name": "3813347: Beverages - Alcoholic",
+                        "children": [
+                            {
+                                "id": 3813388,
+                                "parentid": 3813347,
+                                "name": "3813388: Beverages - Wineries & Distilleries"
+                            },
+                            {
+                                "id": 3813520,
+                                "parentid": 3813347,
+                                "name": "3813520: Beverages - Brewers"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813439,
+                        "parentid": 3813328,
+                        "name": "3813439: Tobacco Products",
+                        "children": [
+                            {
+                                "id": 3813484,
+                                "parentid": 3813439,
+                                "name": "3813484: Tobacco"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813504,
+                        "parentid": 3813328,
+                        "name": "3813504: Beverages - Non-Alcoholic",
+                        "children": [
+                            {
+                                "id": 3813422,
+                                "parentid": 3813504,
+                                "name": "3813422: Beverages - Soft Drinks"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813459,
+                        "parentid": 3813328,
+                        "name": "3813459: Education",
+                        "children": [
+                            {
+                                "id": 3813391,
+                                "parentid": 3813459,
+                                "name": "3813391: Education & Training Services"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813370,
+                        "parentid": 3813328,
+                        "name": "3813370: Retail - Defensive",
+                        "children": [
+                            {
+                                "id": 3813511,
+                                "parentid": 3813370,
+                                "name": "3813511: Grocery Stores"
+                            },
+                            {
+                                "id": 3813368,
+                                "parentid": 3813370,
+                                "name": "3813368: Food Distribution"
+                            },
+                            {
+                                "id": 3813390,
+                                "parentid": 3813370,
+                                "name": "3813390: Pharmaceutical Retailers"
+                            },
+                            {
+                                "id": 3813324,
+                                "parentid": 3813370,
+                                "name": "3813324: Discount Stores"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813451,
+                        "parentid": 3813328,
+                        "name": "3813451: Consumer Packaged Goods",
+                        "children": [
+                            {
+                                "id": 3813463,
+                                "parentid": 3813451,
+                                "name": "3813463: Farm Products"
+                            },
+                            {
+                                "id": 3813457,
+                                "parentid": 3813451,
+                                "name": "3813457: Household & Personal Products"
+                            },
+                            {
+                                "id": 3813496,
+                                "parentid": 3813451,
+                                "name": "3813496: Confectioners"
+                            },
+                            {
+                                "id": 3813339,
+                                "parentid": 3813451,
+                                "name": "3813339: Packaged Foods"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3813473,
+                "parentid": 3,
+                "name": "3813473: Basic Materials",
+                "children": [
+                    {
+                        "id": 3813476,
+                        "parentid": 3813473,
+                        "name": "3813476: Forest Products",
+                        "children": [
+                            {
+                                "id": 3813381,
+                                "parentid": 3813476,
+                                "name": "3813381: Paper & Paper Products"
+                            },
+                            {
+                                "id": 3813332,
+                                "parentid": 3813476,
+                                "name": "3813332: Lumber & Wood Production"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813480,
+                        "parentid": 3813473,
+                        "name": "3813480: Building Materials",
+                        "children": [
+                            {
+                                "id": 3813427,
+                                "parentid": 3813480,
+                                "name": "3813427: Building Materials"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813406,
+                        "parentid": 3813473,
+                        "name": "3813406: Chemicals"
+                    },
+                    {
+                        "id": 3813410,
+                        "parentid": 3813473,
+                        "name": "3813410: Coal"
+                    },
+                    {
+                        "id": 3813512,
+                        "parentid": 3813473,
+                        "name": "3813512: Steel",
+                        "children": [
+                            {
+                                "id": 3813421,
+                                "parentid": 3813512,
+                                "name": "3813421: Steel"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3813349,
+                        "parentid": 3813473,
+                        "name": "3813349: Agriculture"
+                    },
+                    {
+                        "id": 3813337,
+                        "parentid": 3813473,
+                        "name": "3813337: Metals & Mining"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3813378,
+        "parentid": 3,
+        "name": "3813378: Healthcare",
+        "children": [
+            {
+                "id": 3813423,
+                "parentid": 3813378,
+                "name": "3813423: Medical Diagnostics & Research",
+                "children": [
+                    {
+                        "id": 3813335,
+                        "parentid": 3813423,
+                        "name": "3813335: Diagnostics & Research"
+                    }
+                ]
+            },
+            {
+                "id": 3813447,
+                "parentid": 3813378,
+                "name": "3813447: Drug Manufacturers",
+                "children": [
+                    {
+                        "id": 3813417,
+                        "parentid": 3813447,
+                        "name": "3813417: Drug Manufacturers - Specialty & Generic"
+                    },
+                    {
+                        "id": 3813355,
+                        "parentid": 3813447,
+                        "name": "3813355: Drug Manufacturers - Major"
+                    }
+                ]
+            },
+            {
+                "id": 3813483,
+                "parentid": 3813378,
+                "name": "3813483: Medical Distribution",
+                "children": [
+                    {
+                        "id": 3813455,
+                        "parentid": 3813483,
+                        "name": "3813455: Medical Distribution"
+                    }
+                ]
+            },
+            {
+                "id": 3813405,
+                "parentid": 3813378,
+                "name": "3813405: Biotechnology",
+                "children": [
+                    {
+                        "id": 3813362,
+                        "parentid": 3813405,
+                        "name": "3813362: Biotechnology"
+                    }
+                ]
+            },
+            {
+                "id": 3813340,
+                "parentid": 3813378,
+                "name": "3813340: Medical Instruments & Equipment"
+            },
+            {
+                "id": 3813425,
+                "parentid": 3813378,
+                "name": "3813425: Healthcare Providers",
+                "children": [
+                    {
+                        "id": 3813382,
+                        "parentid": 3813425,
+                        "name": "3813382: Medical Care"
+                    },
+                    {
+                        "id": 3813424,
+                        "parentid": 3813425,
+                        "name": "3813424: Long-Term Care Facilities"
+                    }
+                ]
+            },
+            {
+                "id": 3813341,
+                "parentid": 3813378,
+                "name": "3813341: Healthcare Plans"
+            },
+            {
+                "id": 3813435,
+                "parentid": 3813378,
+                "name": "3813435: Medical Devices",
+                "children": [
+                    {
+                        "id": 3813377,
+                        "parentid": 3813435,
+                        "name": "3813377: Medical Devices"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3813525,
+        "parentid": 3,
+        "name": "3813525: Energy",
+        "children": [
+            {
+                "id": 3813450,
+                "parentid": 3813525,
+                "name": "3813450: Oil & Gas - Integrated"
+            },
+            {
+                "id": 3813466,
+                "parentid": 3813525,
+                "name": "3813466: Oil & Gas - Drilling"
+            },
+            {
+                "id": 3813373,
+                "parentid": 3813525,
+                "name": "3813373: Oil & Gas - E&P"
+            },
+            {
+                "id": 3813514,
+                "parentid": 3813525,
+                "name": "3813514: Oil & Gas - Refining & Marketing"
+            },
+            {
+                "id": 3813490,
+                "parentid": 3813525,
+                "name": "3813490: Oil & Gas - Services"
+            },
+            {
+                "id": 3813526,
+                "parentid": 3813525,
+                "name": "3813526: Oil & Gas - Midstream",
+                "children": [
+                    {
+                        "id": 3813453,
+                        "parentid": 3813526,
+                        "name": "3813453: Oil & Gas Midstream"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3813452,
+        "parentid": 3,
+        "name": "3813452: Financial Services",
+        "children": [
+            {
+                "id": 3813380,
+                "parentid": 3813452,
+                "name": "3813380: Asset Management"
+            },
+            {
+                "id": 3813334,
+                "parentid": 3813452,
+                "name": "3813334: Insurance - Life"
+            },
+            {
+                "id": 3813446,
+                "parentid": 3813452,
+                "name": "3813446: Credit Services"
+            },
+            {
+                "id": 3813343,
+                "parentid": 3813452,
+                "name": "3813343: Insurance - Property & Casualty"
+            },
+            {
+                "id": 3813413,
+                "parentid": 3813452,
+                "name": "3813413: Banks"
+            },
+            {
+                "id": 3813509,
+                "parentid": 3813452,
+                "name": "3813509: Brokers & Exchanges",
+                "children": [
+                    {
+                        "id": 3813325,
+                        "parentid": 3813509,
+                        "name": "3813325: Insurance Brokers"
+                    },
+                    {
+                        "id": 3813385,
+                        "parentid": 3813509,
+                        "name": "3813385: Financial Exchanges"
+                    },
+                    {
+                        "id": 3813428,
+                        "parentid": 3813509,
+                        "name": "3813428: Capital Markets"
+                    }
+                ]
+            },
+            {
+                "id": 3813518,
+                "parentid": 3813452,
+                "name": "3813518: Insurance - Specialty",
+                "children": [
+                    {
+                        "id": 3813415,
+                        "parentid": 3813518,
+                        "name": "3813415: Insurance - Reinsurance"
+                    },
+                    {
+                        "id": 3813458,
+                        "parentid": 3813518,
+                        "name": "3813458: Insurance - Specialty"
+                    }
+                ]
+            },
+            {
+                "id": 3813440,
+                "parentid": 3813452,
+                "name": "3813440: Insurance"
+            }
+        ]
+    },
+    {
+        "id": 3813449,
+        "parentid": 3,
+        "name": "3813449: Technology",
+        "children": [
+            {
+                "id": 3813365,
+                "parentid": 3813449,
+                "name": "3813365: Semiconductors"
+            },
+            {
+                "id": 3813502,
+                "parentid": 3813449,
+                "name": "3813502: Online Media",
+                "children": [
+                    {
+                        "id": 3813507,
+                        "parentid": 3813502,
+                        "name": "3813507: Internet Content & Information"
+                    }
+                ]
+            },
+            {
+                "id": 3813499,
+                "parentid": 3813449,
+                "name": "3813499: Application Software",
+                "children": [
+                    {
+                        "id": 3813482,
+                        "parentid": 3813499,
+                        "name": "3813482: Software - Application"
+                    },
+                    {
+                        "id": 3813348,
+                        "parentid": 3813499,
+                        "name": "3813348: Software - Infrastructure"
+                    },
+                    {
+                        "id": 3813503,
+                        "parentid": 3813499,
+                        "name": "3813503: Electronic Gaming & Multimedia"
+                    },
+                    {
+                        "id": 3813393,
+                        "parentid": 3813499,
+                        "name": "3813393: Information Technology Services"
+                    },
+                    {
+                        "id": 3813351,
+                        "parentid": 3813499,
+                        "name": "3813351: Health Information Services"
+                    }
+                ]
+            },
+            {
+                "id": 3813414,
+                "parentid": 3813449,
+                "name": "3813414: Communication Equipment"
+            },
+            {
+                "id": 3813352,
+                "parentid": 3813449,
+                "name": "3813352: Computer Hardware"
+            }
+        ]
+    },
+    {
+        "id": 3813364,
+        "parentid": 3,
+        "name": "3813364: Real Estate",
+        "children": [
+            {
+                "id": 3813524,
+                "parentid": 3813364,
+                "name": "3813524: Real Estate Services",
+                "children": [
+                    {
+                        "id": 3813515,
+                        "parentid": 3813524,
+                        "name": "3813515: Real Estate - General"
+                    },
+                    {
+                        "id": 3813323,
+                        "parentid": 3813524,
+                        "name": "3813323: Real Estate Services"
+                    }
+                ]
+            },
+            {
+                "id": 3813418,
+                "parentid": 3813364,
+                "name": "3813418: REITs",
+                "children": [
+                    {
+                        "id": 3813543,
+                        "parentid": 3813418,
+                        "name": "3813543: REIT - Healthcare Facilities"
+                    },
+                    {
+                        "id": 3813546,
+                        "parentid": 3813418,
+                        "name": "3813546: REIT - Hotel & Motel"
+                    },
+                    {
+                        "id": 3813357,
+                        "parentid": 3813418,
+                        "name": "3813357: REIT - Diversified"
+                    },
+                    {
+                        "id": 3813326,
+                        "parentid": 3813418,
+                        "name": "3813326: REIT - Industrial"
+                    },
+                    {
+                        "id": 3813399,
+                        "parentid": 3813418,
+                        "name": "3813399: REIT - Office"
+                    },
+                    {
+                        "id": 3813548,
+                        "parentid": 3813418,
+                        "name": "3813548: REIT - Residential"
+                    },
+                    {
+                        "id": 3813366,
+                        "parentid": 3813418,
+                        "name": "3813366: REIT - Retail"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3813404,
+        "parentid": 3,
+        "name": "3813404: Utilities",
+        "children": [
+            {
+                "id": 3813433,
+                "parentid": 3813404,
+                "name": "3813433: Utilities - Regulated",
+                "children": [
+                    {
+                        "id": 3813383,
+                        "parentid": 3813433,
+                        "name": "3813383: Utilities - Diversified"
+                    },
+                    {
+                        "id": 3813407,
+                        "parentid": 3813433,
+                        "name": "3813407: Utilities - Regulated Water"
+                    },
+                    {
+                        "id": 3813537,
+                        "parentid": 3813433,
+                        "name": "3813537: Utilities - Regulated Electric"
+                    },
+                    {
+                        "id": 3813330,
+                        "parentid": 3813433,
+                        "name": "3813330: Utilities - Regulated Gas"
+                    }
+                ]
+            },
+            {
+                "id": 3813430,
+                "parentid": 3813404,
+                "name": "3813430: Utilities - Independent Power Producers",
+                "children": [
+                    {
+                        "id": 3813460,
+                        "parentid": 3813430,
+                        "name": "3813460: Utilities - Independent Power Producers"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3813468,
+        "parentid": 3,
+        "name": "3813468: Consumer Cyclical",
+        "children": [
+            {
+                "id": 3813523,
+                "parentid": 3813468,
+                "name": "3813523: Restaurants",
+                "children": [
+                    {
+                        "id": 3813474,
+                        "parentid": 3813523,
+                        "name": "3813474: Restaurants"
+                    }
+                ]
+            },
+            {
+                "id": 3813461,
+                "parentid": 3813468,
+                "name": "3813461: Personal Services"
+            },
+            {
+                "id": 3813528,
+                "parentid": 3813468,
+                "name": "3813528: Advertising & Marketing Services",
+                "children": [
+                    {
+                        "id": 3813530,
+                        "parentid": 3813528,
+                        "name": "3813530: Advertising Agencies"
+                    },
+                    {
+                        "id": 3813497,
+                        "parentid": 3813528,
+                        "name": "3813497: Marketing Services"
+                    }
+                ]
+            },
+            {
+                "id": 3813412,
+                "parentid": 3813468,
+                "name": "3813412: Autos"
+            },
+            {
+                "id": 3813475,
+                "parentid": 3813468,
+                "name": "3813475: Packaging & Containers",
+                "children": [
+                    {
+                        "id": 3813359,
+                        "parentid": 3813475,
+                        "name": "3813359: Packaging & Containers"
+                    }
+                ]
+            },
+            {
+                "id": 3813374,
+                "parentid": 3813468,
+                "name": "3813374: Publishing"
+            },
+            {
+                "id": 3813375,
+                "parentid": 3813468,
+                "name": "3813375: Manufacturing - Apparel & Furniture"
+            },
+            {
+                "id": 3813431,
+                "parentid": 3813468,
+                "name": "3813431: Entertainment"
+            },
+            {
+                "id": 3813501,
+                "parentid": 3813468,
+                "name": "3813501: Homebuilding & Construction",
+                "children": [
+                    {
+                        "id": 3813360,
+                        "parentid": 3813501,
+                        "name": "3813360: Textile Manufacturing"
+                    },
+                    {
+                        "id": 3813478,
+                        "parentid": 3813501,
+                        "name": "3813478: Residential Construction"
+                    }
+                ]
+            },
+            {
+                "id": 3813402,
+                "parentid": 3813468,
+                "name": "3813402: Retail - Apparel & Specialty"
+            },
+            {
+                "id": 3813495,
+                "parentid": 3813468,
+                "name": "3813495: Travel & Leisure",
+                "children": [
+                    {
+                        "id": 3813396,
+                        "parentid": 3813495,
+                        "name": "3813396: Lodging"
+                    },
+                    {
+                        "id": 3813392,
+                        "parentid": 3813495,
+                        "name": "3813392: Gambling"
+                    },
+                    {
+                        "id": 3813387,
+                        "parentid": 3813495,
+                        "name": "3813387: Resorts & Casinos"
+                    },
+                    {
+                        "id": 3813538,
+                        "parentid": 3813495,
+                        "name": "3813538: Leisure"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3813342,
+        "parentid": 3,
+        "name": "3813342: Industrials",
+        "children": [
+            {
+                "id": 3813358,
+                "parentid": 3813342,
+                "name": "3813358: Truck Manufacturing",
+                "children": [
+                    {
+                        "id": 3813471,
+                        "parentid": 3813358,
+                        "name": "3813471: Truck Manufacturing"
+                    }
+                ]
+            },
+            {
+                "id": 3813508,
+                "parentid": 3813342,
+                "name": "3813508: Business Services",
+                "children": [
+                    {
+                        "id": 3813416,
+                        "parentid": 3813508,
+                        "name": "3813416: Business Services"
+                    }
+                ]
+            },
+            {
+                "id": 3813384,
+                "parentid": 3813342,
+                "name": "3813384: Industrial Distribution",
+                "children": [
+                    {
+                        "id": 3813333,
+                        "parentid": 3813384,
+                        "name": "3813333: Industrial Distribution"
+                    }
+                ]
+            },
+            {
+                "id": 3813534,
+                "parentid": 3813342,
+                "name": "3813534: Consulting & Outsourcing",
+                "children": [
+                    {
+                        "id": 3813376,
+                        "parentid": 3813534,
+                        "name": "3813376: Security & Protection Services"
+                    },
+                    {
+                        "id": 3813442,
+                        "parentid": 3813534,
+                        "name": "3813442: Rental & Leasing Services"
+                    }
+                ]
+            },
+            {
+                "id": 3813456,
+                "parentid": 3813342,
+                "name": "3813456: Transportation & Logistics",
+                "children": [
+                    {
+                        "id": 3813429,
+                        "parentid": 3813456,
+                        "name": "3813429: Railroads"
+                    },
+                    {
+                        "id": 3813516,
+                        "parentid": 3813456,
+                        "name": "3813516: Integrated Shipping & Logistics"
+                    },
+                    {
+                        "id": 3813506,
+                        "parentid": 3813456,
+                        "name": "3813506: Shipping & Ports"
+                    },
+                    {
+                        "id": 3813544,
+                        "parentid": 3813456,
+                        "name": "3813544: Trucking"
+                    },
+                    {
+                        "id": 3813519,
+                        "parentid": 3813456,
+                        "name": "3813519: Airports & Air Services"
+                    }
+                ]
+            },
+            {
+                "id": 3813454,
+                "parentid": 3813342,
+                "name": "3813454: Waste Management",
+                "children": [
+                    {
+                        "id": 3813533,
+                        "parentid": 3813454,
+                        "name": "3813533: Waste Management"
+                    }
+                ]
+            },
+            {
+                "id": 3813445,
+                "parentid": 3813342,
+                "name": "3813445: Engineering & Construction",
+                "children": [
+                    {
+                        "id": 3813338,
+                        "parentid": 3813445,
+                        "name": "3813338: Infrastructure Operations"
+                    },
+                    {
+                        "id": 3813494,
+                        "parentid": 3813445,
+                        "name": "3813494: Engineering & Construction"
+                    }
+                ]
+            },
+            {
+                "id": 3813438,
+                "parentid": 3813342,
+                "name": "3813438: Aerospace & Defense",
+                "children": [
+                    {
+                        "id": 3813535,
+                        "parentid": 3813438,
+                        "name": "3813535: Aerospace & Defense"
+                    }
+                ]
+            },
+            {
+                "id": 3813350,
+                "parentid": 3813342,
+                "name": "3813350: Airlines",
+                "children": [
+                    {
+                        "id": 3813486,
+                        "parentid": 3813350,
+                        "name": "3813486: Airlines"
+                    }
+                ]
+            },
+            {
+                "id": 3813411,
+                "parentid": 3813342,
+                "name": "3813411: Farm & Construction Machinery",
+                "children": [
+                    {
+                        "id": 3813327,
+                        "parentid": 3813411,
+                        "name": "3813327: Farm & Construction Equipment"
+                    }
+                ]
+            },
+            {
+                "id": 3813369,
+                "parentid": 3813342,
+                "name": "3813369: Conglomerates",
+                "children": [
+                    {
+                        "id": 3813395,
+                        "parentid": 3813369,
+                        "name": "3813395: Conglomerates"
+                    }
+                ]
+            },
+            {
+                "id": 3813397,
+                "parentid": 3813342,
+                "name": "3813397: Employment Services",
+                "children": [
+                    {
+                        "id": 3813491,
+                        "parentid": 3813397,
+                        "name": "3813491: Staffing & Outsourcing Services"
+                    }
+                ]
+            },
+            {
+                "id": 3813505,
+                "parentid": 3813342,
+                "name": "3813505: Industrial Products",
+                "children": [
+                    {
+                        "id": 3813469,
+                        "parentid": 3813505,
+                        "name": "3813469: Metal Fabrication"
+                    },
+                    {
+                        "id": 3813492,
+                        "parentid": 3813505,
+                        "name": "3813492: Tools & Accessories"
+                    },
+                    {
+                        "id": 3813441,
+                        "parentid": 3813505,
+                        "name": "3813441: Pollution & Treatment Controls"
+                    },
+                    {
+                        "id": 3813353,
+                        "parentid": 3813505,
+                        "name": "3813353: Diversified Industrials"
+                    },
+                    {
+                        "id": 3813398,
+                        "parentid": 3813505,
+                        "name": "3813398: Business Equipment"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3813426,
+        "parentid": 3,
+        "name": "3813426: Communication Services",
+        "children": [
+            {
+                "id": 3813498,
+                "parentid": 3813426,
+                "name": "3813498: Communication Services",
+                "children": [
+                    {
+                        "id": 3813386,
+                        "parentid": 3813498,
+                        "name": "3813386: Telecom Services"
+                    },
+                    {
+                        "id": 3813361,
+                        "parentid": 3813498,
+                        "name": "3813361: Pay TV"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3813328,
+        "parentid": 3,
+        "name": "3813328: Consumer Defensive",
+        "children": [
+            {
+                "id": 3813347,
+                "parentid": 3813328,
+                "name": "3813347: Beverages - Alcoholic",
+                "children": [
+                    {
+                        "id": 3813388,
+                        "parentid": 3813347,
+                        "name": "3813388: Beverages - Wineries & Distilleries"
+                    },
+                    {
+                        "id": 3813520,
+                        "parentid": 3813347,
+                        "name": "3813520: Beverages - Brewers"
+                    }
+                ]
+            },
+            {
+                "id": 3813439,
+                "parentid": 3813328,
+                "name": "3813439: Tobacco Products",
+                "children": [
+                    {
+                        "id": 3813484,
+                        "parentid": 3813439,
+                        "name": "3813484: Tobacco"
+                    }
+                ]
+            },
+            {
+                "id": 3813504,
+                "parentid": 3813328,
+                "name": "3813504: Beverages - Non-Alcoholic",
+                "children": [
+                    {
+                        "id": 3813422,
+                        "parentid": 3813504,
+                        "name": "3813422: Beverages - Soft Drinks"
+                    }
+                ]
+            },
+            {
+                "id": 3813459,
+                "parentid": 3813328,
+                "name": "3813459: Education",
+                "children": [
+                    {
+                        "id": 3813391,
+                        "parentid": 3813459,
+                        "name": "3813391: Education & Training Services"
+                    }
+                ]
+            },
+            {
+                "id": 3813370,
+                "parentid": 3813328,
+                "name": "3813370: Retail - Defensive",
+                "children": [
+                    {
+                        "id": 3813511,
+                        "parentid": 3813370,
+                        "name": "3813511: Grocery Stores"
+                    },
+                    {
+                        "id": 3813368,
+                        "parentid": 3813370,
+                        "name": "3813368: Food Distribution"
+                    },
+                    {
+                        "id": 3813390,
+                        "parentid": 3813370,
+                        "name": "3813390: Pharmaceutical Retailers"
+                    },
+                    {
+                        "id": 3813324,
+                        "parentid": 3813370,
+                        "name": "3813324: Discount Stores"
+                    }
+                ]
+            },
+            {
+                "id": 3813451,
+                "parentid": 3813328,
+                "name": "3813451: Consumer Packaged Goods",
+                "children": [
+                    {
+                        "id": 3813463,
+                        "parentid": 3813451,
+                        "name": "3813463: Farm Products"
+                    },
+                    {
+                        "id": 3813457,
+                        "parentid": 3813451,
+                        "name": "3813457: Household & Personal Products"
+                    },
+                    {
+                        "id": 3813496,
+                        "parentid": 3813451,
+                        "name": "3813496: Confectioners"
+                    },
+                    {
+                        "id": 3813339,
+                        "parentid": 3813451,
+                        "name": "3813339: Packaged Foods"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3813473,
+        "parentid": 3,
+        "name": "3813473: Basic Materials",
+        "children": [
+            {
+                "id": 3813476,
+                "parentid": 3813473,
+                "name": "3813476: Forest Products",
+                "children": [
+                    {
+                        "id": 3813381,
+                        "parentid": 3813476,
+                        "name": "3813381: Paper & Paper Products"
+                    },
+                    {
+                        "id": 3813332,
+                        "parentid": 3813476,
+                        "name": "3813332: Lumber & Wood Production"
+                    }
+                ]
+            },
+            {
+                "id": 3813480,
+                "parentid": 3813473,
+                "name": "3813480: Building Materials",
+                "children": [
+                    {
+                        "id": 3813427,
+                        "parentid": 3813480,
+                        "name": "3813427: Building Materials"
+                    }
+                ]
+            },
+            {
+                "id": 3813406,
+                "parentid": 3813473,
+                "name": "3813406: Chemicals"
+            },
+            {
+                "id": 3813410,
+                "parentid": 3813473,
+                "name": "3813410: Coal"
+            },
+            {
+                "id": 3813512,
+                "parentid": 3813473,
+                "name": "3813512: Steel",
+                "children": [
+                    {
+                        "id": 3813421,
+                        "parentid": 3813512,
+                        "name": "3813421: Steel"
+                    }
+                ]
+            },
+            {
+                "id": 3813349,
+                "parentid": 3813473,
+                "name": "3813349: Agriculture"
+            },
+            {
+                "id": 3813337,
+                "parentid": 3813473,
+                "name": "3813337: Metals & Mining"
+            }
+        ]
+    },
+    {
+        "id": 3813347,
+        "parentid": 3813328,
+        "name": "3813347: Beverages - Alcoholic",
+        "children": [
+            {
+                "id": 3813388,
+                "parentid": 3813347,
+                "name": "3813388: Beverages - Wineries & Distilleries"
+            },
+            {
+                "id": 3813520,
+                "parentid": 3813347,
+                "name": "3813520: Beverages - Brewers"
+            }
+        ]
+    },
+    {
+        "id": 3813439,
+        "parentid": 3813328,
+        "name": "3813439: Tobacco Products",
+        "children": [
+            {
+                "id": 3813484,
+                "parentid": 3813439,
+                "name": "3813484: Tobacco"
+            }
+        ]
+    },
+    {
+        "id": 3813504,
+        "parentid": 3813328,
+        "name": "3813504: Beverages - Non-Alcoholic",
+        "children": [
+            {
+                "id": 3813422,
+                "parentid": 3813504,
+                "name": "3813422: Beverages - Soft Drinks"
+            }
+        ]
+    },
+    {
+        "id": 3813459,
+        "parentid": 3813328,
+        "name": "3813459: Education",
+        "children": [
+            {
+                "id": 3813391,
+                "parentid": 3813459,
+                "name": "3813391: Education & Training Services"
+            }
+        ]
+    },
+    {
+        "id": 3813370,
+        "parentid": 3813328,
+        "name": "3813370: Retail - Defensive",
+        "children": [
+            {
+                "id": 3813511,
+                "parentid": 3813370,
+                "name": "3813511: Grocery Stores"
+            },
+            {
+                "id": 3813368,
+                "parentid": 3813370,
+                "name": "3813368: Food Distribution"
+            },
+            {
+                "id": 3813390,
+                "parentid": 3813370,
+                "name": "3813390: Pharmaceutical Retailers"
+            },
+            {
+                "id": 3813324,
+                "parentid": 3813370,
+                "name": "3813324: Discount Stores"
+            }
+        ]
+    },
+    {
+        "id": 3813451,
+        "parentid": 3813328,
+        "name": "3813451: Consumer Packaged Goods",
+        "children": [
+            {
+                "id": 3813463,
+                "parentid": 3813451,
+                "name": "3813463: Farm Products"
+            },
+            {
+                "id": 3813457,
+                "parentid": 3813451,
+                "name": "3813457: Household & Personal Products"
+            },
+            {
+                "id": 3813496,
+                "parentid": 3813451,
+                "name": "3813496: Confectioners"
+            },
+            {
+                "id": 3813339,
+                "parentid": 3813451,
+                "name": "3813339: Packaged Foods"
+            }
+        ]
+    },
+    {
+        "id": 3813510,
+        "parentid": 3813334,
+        "name": "3813510: Insurance - Life"
+    },
+    {
+        "id": 3813436,
+        "parentid": 3813337,
+        "name": "3813436: Gold"
+    },
+    {
+        "id": 3813529,
+        "parentid": 3813337,
+        "name": "3813529: Aluminum"
+    },
+    {
+        "id": 3813513,
+        "parentid": 3813337,
+        "name": "3813513: Silver"
+    },
+    {
+        "id": 3813467,
+        "parentid": 3813337,
+        "name": "3813467: Copper"
+    },
+    {
+        "id": 3813536,
+        "parentid": 3813337,
+        "name": "3813536: Industrial Metals & Minerals"
+    },
+    {
+        "id": 3813470,
+        "parentid": 3813340,
+        "name": "3813470: Medical Instruments & Supplies"
+    },
+    {
+        "id": 3813371,
+        "parentid": 3813341,
+        "name": "3813371: Healthcare Plans"
+    },
+    {
+        "id": 3813358,
+        "parentid": 3813342,
+        "name": "3813358: Truck Manufacturing",
+        "children": [
+            {
+                "id": 3813471,
+                "parentid": 3813358,
+                "name": "3813471: Truck Manufacturing"
+            }
+        ]
+    },
+    {
+        "id": 3813508,
+        "parentid": 3813342,
+        "name": "3813508: Business Services",
+        "children": [
+            {
+                "id": 3813416,
+                "parentid": 3813508,
+                "name": "3813416: Business Services"
+            }
+        ]
+    },
+    {
+        "id": 3813384,
+        "parentid": 3813342,
+        "name": "3813384: Industrial Distribution",
+        "children": [
+            {
+                "id": 3813333,
+                "parentid": 3813384,
+                "name": "3813333: Industrial Distribution"
+            }
+        ]
+    },
+    {
+        "id": 3813534,
+        "parentid": 3813342,
+        "name": "3813534: Consulting & Outsourcing",
+        "children": [
+            {
+                "id": 3813376,
+                "parentid": 3813534,
+                "name": "3813376: Security & Protection Services"
+            },
+            {
+                "id": 3813442,
+                "parentid": 3813534,
+                "name": "3813442: Rental & Leasing Services"
+            }
+        ]
+    },
+    {
+        "id": 3813456,
+        "parentid": 3813342,
+        "name": "3813456: Transportation & Logistics",
+        "children": [
+            {
+                "id": 3813429,
+                "parentid": 3813456,
+                "name": "3813429: Railroads"
+            },
+            {
+                "id": 3813516,
+                "parentid": 3813456,
+                "name": "3813516: Integrated Shipping & Logistics"
+            },
+            {
+                "id": 3813506,
+                "parentid": 3813456,
+                "name": "3813506: Shipping & Ports"
+            },
+            {
+                "id": 3813544,
+                "parentid": 3813456,
+                "name": "3813544: Trucking"
+            },
+            {
+                "id": 3813519,
+                "parentid": 3813456,
+                "name": "3813519: Airports & Air Services"
+            }
+        ]
+    },
+    {
+        "id": 3813454,
+        "parentid": 3813342,
+        "name": "3813454: Waste Management",
+        "children": [
+            {
+                "id": 3813533,
+                "parentid": 3813454,
+                "name": "3813533: Waste Management"
+            }
+        ]
+    },
+    {
+        "id": 3813445,
+        "parentid": 3813342,
+        "name": "3813445: Engineering & Construction",
+        "children": [
+            {
+                "id": 3813338,
+                "parentid": 3813445,
+                "name": "3813338: Infrastructure Operations"
+            },
+            {
+                "id": 3813494,
+                "parentid": 3813445,
+                "name": "3813494: Engineering & Construction"
+            }
+        ]
+    },
+    {
+        "id": 3813438,
+        "parentid": 3813342,
+        "name": "3813438: Aerospace & Defense",
+        "children": [
+            {
+                "id": 3813535,
+                "parentid": 3813438,
+                "name": "3813535: Aerospace & Defense"
+            }
+        ]
+    },
+    {
+        "id": 3813350,
+        "parentid": 3813342,
+        "name": "3813350: Airlines",
+        "children": [
+            {
+                "id": 3813486,
+                "parentid": 3813350,
+                "name": "3813486: Airlines"
+            }
+        ]
+    },
+    {
+        "id": 3813411,
+        "parentid": 3813342,
+        "name": "3813411: Farm & Construction Machinery",
+        "children": [
+            {
+                "id": 3813327,
+                "parentid": 3813411,
+                "name": "3813327: Farm & Construction Equipment"
+            }
+        ]
+    },
+    {
+        "id": 3813369,
+        "parentid": 3813342,
+        "name": "3813369: Conglomerates",
+        "children": [
+            {
+                "id": 3813395,
+                "parentid": 3813369,
+                "name": "3813395: Conglomerates"
+            }
+        ]
+    },
+    {
+        "id": 3813397,
+        "parentid": 3813342,
+        "name": "3813397: Employment Services",
+        "children": [
+            {
+                "id": 3813491,
+                "parentid": 3813397,
+                "name": "3813491: Staffing & Outsourcing Services"
+            }
+        ]
+    },
+    {
+        "id": 3813505,
+        "parentid": 3813342,
+        "name": "3813505: Industrial Products",
+        "children": [
+            {
+                "id": 3813469,
+                "parentid": 3813505,
+                "name": "3813469: Metal Fabrication"
+            },
+            {
+                "id": 3813492,
+                "parentid": 3813505,
+                "name": "3813492: Tools & Accessories"
+            },
+            {
+                "id": 3813441,
+                "parentid": 3813505,
+                "name": "3813441: Pollution & Treatment Controls"
+            },
+            {
+                "id": 3813353,
+                "parentid": 3813505,
+                "name": "3813353: Diversified Industrials"
+            },
+            {
+                "id": 3813398,
+                "parentid": 3813505,
+                "name": "3813398: Business Equipment"
+            }
+        ]
+    },
+    {
+        "id": 3813487,
+        "parentid": 3813343,
+        "name": "3813487: Insurance - Property & Casualty"
+    },
+    {
+        "id": 3813388,
+        "parentid": 3813347,
+        "name": "3813388: Beverages - Wineries & Distilleries"
+    },
+    {
+        "id": 3813520,
+        "parentid": 3813347,
+        "name": "3813520: Beverages - Brewers"
+    },
+    {
+        "id": 3813489,
+        "parentid": 3813349,
+        "name": "3813489: Agricultural Inputs"
+    },
+    {
+        "id": 3813486,
+        "parentid": 3813350,
+        "name": "3813486: Airlines"
+    },
+    {
+        "id": 3813477,
+        "parentid": 3813352,
+        "name": "3813477: Electronics Distribution"
+    },
+    {
+        "id": 3813432,
+        "parentid": 3813352,
+        "name": "3813432: Data Storage"
+    },
+    {
+        "id": 3813367,
+        "parentid": 3813352,
+        "name": "3813367: Computer Distribution"
+    },
+    {
+        "id": 3813409,
+        "parentid": 3813352,
+        "name": "3813409: Computer Systems"
+    },
+    {
+        "id": 3813464,
+        "parentid": 3813352,
+        "name": "3813464: Electronic Components"
+    },
+    {
+        "id": 3813493,
+        "parentid": 3813352,
+        "name": "3813493: Scientific & Technical Instruments"
+    },
+    {
+        "id": 3813462,
+        "parentid": 3813352,
+        "name": "3813462: Contract Manufacturers"
+    },
+    {
+        "id": 3813485,
+        "parentid": 3813352,
+        "name": "3813485: Consumer Electronics"
+    },
+    {
+        "id": 3813471,
+        "parentid": 3813358,
+        "name": "3813471: Truck Manufacturing"
+    },
+    {
+        "id": 3813524,
+        "parentid": 3813364,
+        "name": "3813524: Real Estate Services",
+        "children": [
+            {
+                "id": 3813515,
+                "parentid": 3813524,
+                "name": "3813515: Real Estate - General"
+            },
+            {
+                "id": 3813323,
+                "parentid": 3813524,
+                "name": "3813323: Real Estate Services"
+            }
+        ]
+    },
+    {
+        "id": 3813418,
+        "parentid": 3813364,
+        "name": "3813418: REITs",
+        "children": [
+            {
+                "id": 3813543,
+                "parentid": 3813418,
+                "name": "3813543: REIT - Healthcare Facilities"
+            },
+            {
+                "id": 3813546,
+                "parentid": 3813418,
+                "name": "3813546: REIT - Hotel & Motel"
+            },
+            {
+                "id": 3813357,
+                "parentid": 3813418,
+                "name": "3813357: REIT - Diversified"
+            },
+            {
+                "id": 3813326,
+                "parentid": 3813418,
+                "name": "3813326: REIT - Industrial"
+            },
+            {
+                "id": 3813399,
+                "parentid": 3813418,
+                "name": "3813399: REIT - Office"
+            },
+            {
+                "id": 3813548,
+                "parentid": 3813418,
+                "name": "3813548: REIT - Residential"
+            },
+            {
+                "id": 3813366,
+                "parentid": 3813418,
+                "name": "3813366: REIT - Retail"
+            }
+        ]
+    },
+    {
+        "id": 3813437,
+        "parentid": 3813365,
+        "name": "3813437: Solar"
+    },
+    {
+        "id": 3813419,
+        "parentid": 3813365,
+        "name": "3813419: Semiconductor Equipment & Materials"
+    },
+    {
+        "id": 3813403,
+        "parentid": 3813365,
+        "name": "3813403: Semiconductors"
+    },
+    {
+        "id": 3813331,
+        "parentid": 3813365,
+        "name": "3813331: Semiconductor Memory"
+    },
+    {
+        "id": 3813395,
+        "parentid": 3813369,
+        "name": "3813395: Conglomerates"
+    },
+    {
+        "id": 3813511,
+        "parentid": 3813370,
+        "name": "3813511: Grocery Stores"
+    },
+    {
+        "id": 3813368,
+        "parentid": 3813370,
+        "name": "3813368: Food Distribution"
+    },
+    {
+        "id": 3813390,
+        "parentid": 3813370,
+        "name": "3813390: Pharmaceutical Retailers"
+    },
+    {
+        "id": 3813324,
+        "parentid": 3813370,
+        "name": "3813324: Discount Stores"
+    },
+    {
+        "id": 3813444,
+        "parentid": 3813373,
+        "name": "3813444: Oil & Gas E&P"
+    },
+    {
+        "id": 3813356,
+        "parentid": 3813374,
+        "name": "3813356: Publishing"
+    },
+    {
+        "id": 3813481,
+        "parentid": 3813375,
+        "name": "3813481: Home Furnishings & Fixtures"
+    },
+    {
+        "id": 3813401,
+        "parentid": 3813375,
+        "name": "3813401: Footwear & Accessories"
+    },
+    {
+        "id": 3813345,
+        "parentid": 3813375,
+        "name": "3813345: Apparel Manufacturing"
+    },
+    {
+        "id": 3813423,
+        "parentid": 3813378,
+        "name": "3813423: Medical Diagnostics & Research",
+        "children": [
+            {
+                "id": 3813335,
+                "parentid": 3813423,
+                "name": "3813335: Diagnostics & Research"
+            }
+        ]
+    },
+    {
+        "id": 3813447,
+        "parentid": 3813378,
+        "name": "3813447: Drug Manufacturers",
+        "children": [
+            {
+                "id": 3813417,
+                "parentid": 3813447,
+                "name": "3813417: Drug Manufacturers - Specialty & Generic"
+            },
+            {
+                "id": 3813355,
+                "parentid": 3813447,
+                "name": "3813355: Drug Manufacturers - Major"
+            }
+        ]
+    },
+    {
+        "id": 3813483,
+        "parentid": 3813378,
+        "name": "3813483: Medical Distribution",
+        "children": [
+            {
+                "id": 3813455,
+                "parentid": 3813483,
+                "name": "3813455: Medical Distribution"
+            }
+        ]
+    },
+    {
+        "id": 3813405,
+        "parentid": 3813378,
+        "name": "3813405: Biotechnology",
+        "children": [
+            {
+                "id": 3813362,
+                "parentid": 3813405,
+                "name": "3813362: Biotechnology"
+            }
+        ]
+    },
+    {
+        "id": 3813340,
+        "parentid": 3813378,
+        "name": "3813340: Medical Instruments & Equipment"
+    },
+    {
+        "id": 3813425,
+        "parentid": 3813378,
+        "name": "3813425: Healthcare Providers",
+        "children": [
+            {
+                "id": 3813382,
+                "parentid": 3813425,
+                "name": "3813382: Medical Care"
+            },
+            {
+                "id": 3813424,
+                "parentid": 3813425,
+                "name": "3813424: Long-Term Care Facilities"
+            }
+        ]
+    },
+    {
+        "id": 3813341,
+        "parentid": 3813378,
+        "name": "3813341: Healthcare Plans"
+    },
+    {
+        "id": 3813435,
+        "parentid": 3813378,
+        "name": "3813435: Medical Devices",
+        "children": [
+            {
+                "id": 3813377,
+                "parentid": 3813435,
+                "name": "3813377: Medical Devices"
+            }
+        ]
+    },
+    {
+        "id": 3813344,
+        "parentid": 3813380,
+        "name": "3813344: Asset Management"
+    },
+    {
+        "id": 3813333,
+        "parentid": 3813384,
+        "name": "3813333: Industrial Distribution"
+    },
+    {
+        "id": 3813491,
+        "parentid": 3813397,
+        "name": "3813491: Staffing & Outsourcing Services"
+    },
+    {
+        "id": 3813465,
+        "parentid": 3813402,
+        "name": "3813465: Apparel Stores"
+    },
+    {
+        "id": 3813531,
+        "parentid": 3813402,
+        "name": "3813531: Luxury Goods"
+    },
+    {
+        "id": 3813336,
+        "parentid": 3813402,
+        "name": "3813336: Home Improvement Stores"
+    },
+    {
+        "id": 3813346,
+        "parentid": 3813402,
+        "name": "3813346: Department Stores"
+    },
+    {
+        "id": 3813394,
+        "parentid": 3813402,
+        "name": "3813394: Specialty Retail"
+    },
+    {
+        "id": 3813433,
+        "parentid": 3813404,
+        "name": "3813433: Utilities - Regulated",
+        "children": [
+            {
+                "id": 3813383,
+                "parentid": 3813433,
+                "name": "3813383: Utilities - Diversified"
+            },
+            {
+                "id": 3813407,
+                "parentid": 3813433,
+                "name": "3813407: Utilities - Regulated Water"
+            },
+            {
+                "id": 3813537,
+                "parentid": 3813433,
+                "name": "3813537: Utilities - Regulated Electric"
+            },
+            {
+                "id": 3813330,
+                "parentid": 3813433,
+                "name": "3813330: Utilities - Regulated Gas"
+            }
+        ]
+    },
+    {
+        "id": 3813430,
+        "parentid": 3813404,
+        "name": "3813430: Utilities - Independent Power Producers",
+        "children": [
+            {
+                "id": 3813460,
+                "parentid": 3813430,
+                "name": "3813460: Utilities - Independent Power Producers"
+            }
+        ]
+    },
+    {
+        "id": 3813362,
+        "parentid": 3813405,
+        "name": "3813362: Biotechnology"
+    },
+    {
+        "id": 3813488,
+        "parentid": 3813406,
+        "name": "3813488: Specialty Chemicals"
+    },
+    {
+        "id": 3813532,
+        "parentid": 3813406,
+        "name": "3813532: Chemicals"
+    },
+    {
+        "id": 3813329,
+        "parentid": 3813410,
+        "name": "3813329: Coal"
+    },
+    {
+        "id": 3813327,
+        "parentid": 3813411,
+        "name": "3813327: Farm & Construction Equipment"
+    },
+    {
+        "id": 3813372,
+        "parentid": 3813412,
+        "name": "3813372: Recreational Vehicles"
+    },
+    {
+        "id": 3813448,
+        "parentid": 3813412,
+        "name": "3813448: Auto Manufacturers"
+    },
+    {
+        "id": 3813517,
+        "parentid": 3813412,
+        "name": "3813517: Auto Parts"
+    },
+    {
+        "id": 3813443,
+        "parentid": 3813412,
+        "name": "3813443: Rubber & Plastics"
+    },
+    {
+        "id": 3813363,
+        "parentid": 3813412,
+        "name": "3813363: Auto & Truck Dealerships"
+    },
+    {
+        "id": 3813554,
+        "parentid": 3813413,
+        "name": "3813554: Savings & Cooperative Banks"
+    },
+    {
+        "id": 3813522,
+        "parentid": 3813413,
+        "name": "3813522: Specialty Finance"
+    },
+    {
+        "id": 3813550,
+        "parentid": 3813413,
+        "name": "3813550: Banks - Regional - Latin America"
+    },
+    {
+        "id": 3813551,
+        "parentid": 3813413,
+        "name": "3813551: Banks - Regional - Australia"
+    },
+    {
+        "id": 3813547,
+        "parentid": 3813413,
+        "name": "3813547: Banks - Regional - Canada"
+    },
+    {
+        "id": 3813408,
+        "parentid": 3813413,
+        "name": "3813408: Banks - Regional - Europe"
+    },
+    {
+        "id": 3813549,
+        "parentid": 3813413,
+        "name": "3813549: Banks - Regional - Asia"
+    },
+    {
+        "id": 3813472,
+        "parentid": 3813413,
+        "name": "3813472: Banks - Global"
+    },
+    {
+        "id": 3813545,
+        "parentid": 3813413,
+        "name": "3813545: Banks - Regional - Africa"
+    },
+    {
+        "id": 3813552,
+        "parentid": 3813413,
+        "name": "3813552: Banks - Regional - US"
+    },
+    {
+        "id": 3813379,
+        "parentid": 3813414,
+        "name": "3813379: Communication Equipment"
+    },
+    {
+        "id": 3813543,
+        "parentid": 3813418,
+        "name": "3813543: REIT - Healthcare Facilities"
+    },
+    {
+        "id": 3813546,
+        "parentid": 3813418,
+        "name": "3813546: REIT - Hotel & Motel"
+    },
+    {
+        "id": 3813357,
+        "parentid": 3813418,
+        "name": "3813357: REIT - Diversified"
+    },
+    {
+        "id": 3813326,
+        "parentid": 3813418,
+        "name": "3813326: REIT - Industrial"
+    },
+    {
+        "id": 3813399,
+        "parentid": 3813418,
+        "name": "3813399: REIT - Office"
+    },
+    {
+        "id": 3813548,
+        "parentid": 3813418,
+        "name": "3813548: REIT - Residential"
+    },
+    {
+        "id": 3813366,
+        "parentid": 3813418,
+        "name": "3813366: REIT - Retail"
+    },
+    {
+        "id": 3813335,
+        "parentid": 3813423,
+        "name": "3813335: Diagnostics & Research"
+    },
+    {
+        "id": 3813382,
+        "parentid": 3813425,
+        "name": "3813382: Medical Care"
+    },
+    {
+        "id": 3813424,
+        "parentid": 3813425,
+        "name": "3813424: Long-Term Care Facilities"
+    },
+    {
+        "id": 3813498,
+        "parentid": 3813426,
+        "name": "3813498: Communication Services",
+        "children": [
+            {
+                "id": 3813386,
+                "parentid": 3813498,
+                "name": "3813386: Telecom Services"
+            },
+            {
+                "id": 3813361,
+                "parentid": 3813498,
+                "name": "3813361: Pay TV"
+            }
+        ]
+    },
+    {
+        "id": 3813460,
+        "parentid": 3813430,
+        "name": "3813460: Utilities - Independent Power Producers"
+    },
+    {
+        "id": 3813553,
+        "parentid": 3813431,
+        "name": "3813553: Broadcasting - Radio"
+    },
+    {
+        "id": 3813400,
+        "parentid": 3813431,
+        "name": "3813400: Media - Diversified"
+    },
+    {
+        "id": 3813527,
+        "parentid": 3813431,
+        "name": "3813527: Broadcasting - TV"
+    },
+    {
+        "id": 3813383,
+        "parentid": 3813433,
+        "name": "3813383: Utilities - Diversified"
+    },
+    {
+        "id": 3813407,
+        "parentid": 3813433,
+        "name": "3813407: Utilities - Regulated Water"
+    },
+    {
+        "id": 3813537,
+        "parentid": 3813433,
+        "name": "3813537: Utilities - Regulated Electric"
+    },
+    {
+        "id": 3813330,
+        "parentid": 3813433,
+        "name": "3813330: Utilities - Regulated Gas"
+    },
+    {
+        "id": 3813377,
+        "parentid": 3813435,
+        "name": "3813377: Medical Devices"
+    },
+    {
+        "id": 3813535,
+        "parentid": 3813438,
+        "name": "3813535: Aerospace & Defense"
+    },
+    {
+        "id": 3813484,
+        "parentid": 3813439,
+        "name": "3813484: Tobacco"
+    },
+    {
+        "id": 3813500,
+        "parentid": 3813440,
+        "name": "3813500: Insurance - Diversified"
+    },
+    {
+        "id": 3813338,
+        "parentid": 3813445,
+        "name": "3813338: Infrastructure Operations"
+    },
+    {
+        "id": 3813494,
+        "parentid": 3813445,
+        "name": "3813494: Engineering & Construction"
+    },
+    {
+        "id": 3813434,
+        "parentid": 3813446,
+        "name": "3813434: Credit Services"
+    },
+    {
+        "id": 3813417,
+        "parentid": 3813447,
+        "name": "3813417: Drug Manufacturers - Specialty & Generic"
+    },
+    {
+        "id": 3813355,
+        "parentid": 3813447,
+        "name": "3813355: Drug Manufacturers - Major"
+    },
+    {
+        "id": 3813365,
+        "parentid": 3813449,
+        "name": "3813365: Semiconductors"
+    },
+    {
+        "id": 3813502,
+        "parentid": 3813449,
+        "name": "3813502: Online Media",
+        "children": [
+            {
+                "id": 3813507,
+                "parentid": 3813502,
+                "name": "3813507: Internet Content & Information"
+            }
+        ]
+    },
+    {
+        "id": 3813499,
+        "parentid": 3813449,
+        "name": "3813499: Application Software",
+        "children": [
+            {
+                "id": 3813482,
+                "parentid": 3813499,
+                "name": "3813482: Software - Application"
+            },
+            {
+                "id": 3813348,
+                "parentid": 3813499,
+                "name": "3813348: Software - Infrastructure"
+            },
+            {
+                "id": 3813503,
+                "parentid": 3813499,
+                "name": "3813503: Electronic Gaming & Multimedia"
+            },
+            {
+                "id": 3813393,
+                "parentid": 3813499,
+                "name": "3813393: Information Technology Services"
+            },
+            {
+                "id": 3813351,
+                "parentid": 3813499,
+                "name": "3813351: Health Information Services"
+            }
+        ]
+    },
+    {
+        "id": 3813414,
+        "parentid": 3813449,
+        "name": "3813414: Communication Equipment"
+    },
+    {
+        "id": 3813352,
+        "parentid": 3813449,
+        "name": "3813352: Computer Hardware"
+    },
+    {
+        "id": 3813479,
+        "parentid": 3813450,
+        "name": "3813479: Oil & Gas Integrated"
+    },
+    {
+        "id": 3813463,
+        "parentid": 3813451,
+        "name": "3813463: Farm Products"
+    },
+    {
+        "id": 3813457,
+        "parentid": 3813451,
+        "name": "3813457: Household & Personal Products"
+    },
+    {
+        "id": 3813496,
+        "parentid": 3813451,
+        "name": "3813496: Confectioners"
+    },
+    {
+        "id": 3813339,
+        "parentid": 3813451,
+        "name": "3813339: Packaged Foods"
+    },
+    {
+        "id": 3813380,
+        "parentid": 3813452,
+        "name": "3813380: Asset Management"
+    },
+    {
+        "id": 3813334,
+        "parentid": 3813452,
+        "name": "3813334: Insurance - Life"
+    },
+    {
+        "id": 3813446,
+        "parentid": 3813452,
+        "name": "3813446: Credit Services"
+    },
+    {
+        "id": 3813343,
+        "parentid": 3813452,
+        "name": "3813343: Insurance - Property & Casualty"
+    },
+    {
+        "id": 3813413,
+        "parentid": 3813452,
+        "name": "3813413: Banks"
+    },
+    {
+        "id": 3813509,
+        "parentid": 3813452,
+        "name": "3813509: Brokers & Exchanges",
+        "children": [
+            {
+                "id": 3813325,
+                "parentid": 3813509,
+                "name": "3813325: Insurance Brokers"
+            },
+            {
+                "id": 3813385,
+                "parentid": 3813509,
+                "name": "3813385: Financial Exchanges"
+            },
+            {
+                "id": 3813428,
+                "parentid": 3813509,
+                "name": "3813428: Capital Markets"
+            }
+        ]
+    },
+    {
+        "id": 3813518,
+        "parentid": 3813452,
+        "name": "3813518: Insurance - Specialty",
+        "children": [
+            {
+                "id": 3813415,
+                "parentid": 3813518,
+                "name": "3813415: Insurance - Reinsurance"
+            },
+            {
+                "id": 3813458,
+                "parentid": 3813518,
+                "name": "3813458: Insurance - Specialty"
+            }
+        ]
+    },
+    {
+        "id": 3813440,
+        "parentid": 3813452,
+        "name": "3813440: Insurance"
+    },
+    {
+        "id": 3813533,
+        "parentid": 3813454,
+        "name": "3813533: Waste Management"
+    },
+    {
+        "id": 3813429,
+        "parentid": 3813456,
+        "name": "3813429: Railroads"
+    },
+    {
+        "id": 3813516,
+        "parentid": 3813456,
+        "name": "3813516: Integrated Shipping & Logistics"
+    },
+    {
+        "id": 3813506,
+        "parentid": 3813456,
+        "name": "3813506: Shipping & Ports"
+    },
+    {
+        "id": 3813544,
+        "parentid": 3813456,
+        "name": "3813544: Trucking"
+    },
+    {
+        "id": 3813519,
+        "parentid": 3813456,
+        "name": "3813519: Airports & Air Services"
+    },
+    {
+        "id": 3813391,
+        "parentid": 3813459,
+        "name": "3813391: Education & Training Services"
+    },
+    {
+        "id": 3813521,
+        "parentid": 3813461,
+        "name": "3813521: Personal Services"
+    },
+    {
+        "id": 3813354,
+        "parentid": 3813466,
+        "name": "3813354: Oil & Gas Drilling"
+    },
+    {
+        "id": 3813523,
+        "parentid": 3813468,
+        "name": "3813523: Restaurants",
+        "children": [
+            {
+                "id": 3813474,
+                "parentid": 3813523,
+                "name": "3813474: Restaurants"
+            }
+        ]
+    },
+    {
+        "id": 3813461,
+        "parentid": 3813468,
+        "name": "3813461: Personal Services"
+    },
+    {
+        "id": 3813528,
+        "parentid": 3813468,
+        "name": "3813528: Advertising & Marketing Services",
+        "children": [
+            {
+                "id": 3813530,
+                "parentid": 3813528,
+                "name": "3813530: Advertising Agencies"
+            },
+            {
+                "id": 3813497,
+                "parentid": 3813528,
+                "name": "3813497: Marketing Services"
+            }
+        ]
+    },
+    {
+        "id": 3813412,
+        "parentid": 3813468,
+        "name": "3813412: Autos"
+    },
+    {
+        "id": 3813475,
+        "parentid": 3813468,
+        "name": "3813475: Packaging & Containers",
+        "children": [
+            {
+                "id": 3813359,
+                "parentid": 3813475,
+                "name": "3813359: Packaging & Containers"
+            }
+        ]
+    },
+    {
+        "id": 3813374,
+        "parentid": 3813468,
+        "name": "3813374: Publishing"
+    },
+    {
+        "id": 3813375,
+        "parentid": 3813468,
+        "name": "3813375: Manufacturing - Apparel & Furniture"
+    },
+    {
+        "id": 3813431,
+        "parentid": 3813468,
+        "name": "3813431: Entertainment"
+    },
+    {
+        "id": 3813501,
+        "parentid": 3813468,
+        "name": "3813501: Homebuilding & Construction",
+        "children": [
+            {
+                "id": 3813360,
+                "parentid": 3813501,
+                "name": "3813360: Textile Manufacturing"
+            },
+            {
+                "id": 3813478,
+                "parentid": 3813501,
+                "name": "3813478: Residential Construction"
+            }
+        ]
+    },
+    {
+        "id": 3813402,
+        "parentid": 3813468,
+        "name": "3813402: Retail - Apparel & Specialty"
+    },
+    {
+        "id": 3813495,
+        "parentid": 3813468,
+        "name": "3813495: Travel & Leisure",
+        "children": [
+            {
+                "id": 3813396,
+                "parentid": 3813495,
+                "name": "3813396: Lodging"
+            },
+            {
+                "id": 3813392,
+                "parentid": 3813495,
+                "name": "3813392: Gambling"
+            },
+            {
+                "id": 3813387,
+                "parentid": 3813495,
+                "name": "3813387: Resorts & Casinos"
+            },
+            {
+                "id": 3813538,
+                "parentid": 3813495,
+                "name": "3813538: Leisure"
+            }
+        ]
+    },
+    {
+        "id": 3813476,
+        "parentid": 3813473,
+        "name": "3813476: Forest Products",
+        "children": [
+            {
+                "id": 3813381,
+                "parentid": 3813476,
+                "name": "3813381: Paper & Paper Products"
+            },
+            {
+                "id": 3813332,
+                "parentid": 3813476,
+                "name": "3813332: Lumber & Wood Production"
+            }
+        ]
+    },
+    {
+        "id": 3813480,
+        "parentid": 3813473,
+        "name": "3813480: Building Materials",
+        "children": [
+            {
+                "id": 3813427,
+                "parentid": 3813480,
+                "name": "3813427: Building Materials"
+            }
+        ]
+    },
+    {
+        "id": 3813406,
+        "parentid": 3813473,
+        "name": "3813406: Chemicals"
+    },
+    {
+        "id": 3813410,
+        "parentid": 3813473,
+        "name": "3813410: Coal"
+    },
+    {
+        "id": 3813512,
+        "parentid": 3813473,
+        "name": "3813512: Steel",
+        "children": [
+            {
+                "id": 3813421,
+                "parentid": 3813512,
+                "name": "3813421: Steel"
+            }
+        ]
+    },
+    {
+        "id": 3813349,
+        "parentid": 3813473,
+        "name": "3813349: Agriculture"
+    },
+    {
+        "id": 3813337,
+        "parentid": 3813473,
+        "name": "3813337: Metals & Mining"
+    },
+    {
+        "id": 3813359,
+        "parentid": 3813475,
+        "name": "3813359: Packaging & Containers"
+    },
+    {
+        "id": 3813381,
+        "parentid": 3813476,
+        "name": "3813381: Paper & Paper Products"
+    },
+    {
+        "id": 3813332,
+        "parentid": 3813476,
+        "name": "3813332: Lumber & Wood Production"
+    },
+    {
+        "id": 3813427,
+        "parentid": 3813480,
+        "name": "3813427: Building Materials"
+    },
+    {
+        "id": 3813455,
+        "parentid": 3813483,
+        "name": "3813455: Medical Distribution"
+    },
+    {
+        "id": 3813389,
+        "parentid": 3813490,
+        "name": "3813389: Oil & Gas Equipment & Services"
+    },
+    {
+        "id": 3813396,
+        "parentid": 3813495,
+        "name": "3813396: Lodging"
+    },
+    {
+        "id": 3813392,
+        "parentid": 3813495,
+        "name": "3813392: Gambling"
+    },
+    {
+        "id": 3813387,
+        "parentid": 3813495,
+        "name": "3813387: Resorts & Casinos"
+    },
+    {
+        "id": 3813538,
+        "parentid": 3813495,
+        "name": "3813538: Leisure"
+    },
+    {
+        "id": 3813386,
+        "parentid": 3813498,
+        "name": "3813386: Telecom Services"
+    },
+    {
+        "id": 3813361,
+        "parentid": 3813498,
+        "name": "3813361: Pay TV"
+    },
+    {
+        "id": 3813482,
+        "parentid": 3813499,
+        "name": "3813482: Software - Application"
+    },
+    {
+        "id": 3813348,
+        "parentid": 3813499,
+        "name": "3813348: Software - Infrastructure"
+    },
+    {
+        "id": 3813503,
+        "parentid": 3813499,
+        "name": "3813503: Electronic Gaming & Multimedia"
+    },
+    {
+        "id": 3813393,
+        "parentid": 3813499,
+        "name": "3813393: Information Technology Services"
+    },
+    {
+        "id": 3813351,
+        "parentid": 3813499,
+        "name": "3813351: Health Information Services"
+    },
+    {
+        "id": 3813360,
+        "parentid": 3813501,
+        "name": "3813360: Textile Manufacturing"
+    },
+    {
+        "id": 3813478,
+        "parentid": 3813501,
+        "name": "3813478: Residential Construction"
+    },
+    {
+        "id": 3813507,
+        "parentid": 3813502,
+        "name": "3813507: Internet Content & Information"
+    },
+    {
+        "id": 3813422,
+        "parentid": 3813504,
+        "name": "3813422: Beverages - Soft Drinks"
+    },
+    {
+        "id": 3813469,
+        "parentid": 3813505,
+        "name": "3813469: Metal Fabrication"
+    },
+    {
+        "id": 3813492,
+        "parentid": 3813505,
+        "name": "3813492: Tools & Accessories"
+    },
+    {
+        "id": 3813441,
+        "parentid": 3813505,
+        "name": "3813441: Pollution & Treatment Controls"
+    },
+    {
+        "id": 3813353,
+        "parentid": 3813505,
+        "name": "3813353: Diversified Industrials"
+    },
+    {
+        "id": 3813398,
+        "parentid": 3813505,
+        "name": "3813398: Business Equipment"
+    },
+    {
+        "id": 3813416,
+        "parentid": 3813508,
+        "name": "3813416: Business Services"
+    },
+    {
+        "id": 3813325,
+        "parentid": 3813509,
+        "name": "3813325: Insurance Brokers"
+    },
+    {
+        "id": 3813385,
+        "parentid": 3813509,
+        "name": "3813385: Financial Exchanges"
+    },
+    {
+        "id": 3813428,
+        "parentid": 3813509,
+        "name": "3813428: Capital Markets"
+    },
+    {
+        "id": 3813421,
+        "parentid": 3813512,
+        "name": "3813421: Steel"
+    },
+    {
+        "id": 3813420,
+        "parentid": 3813514,
+        "name": "3813420: Oil & Gas Refining & Marketing"
+    },
+    {
+        "id": 3813415,
+        "parentid": 3813518,
+        "name": "3813415: Insurance - Reinsurance"
+    },
+    {
+        "id": 3813458,
+        "parentid": 3813518,
+        "name": "3813458: Insurance - Specialty"
+    },
+    {
+        "id": 3813474,
+        "parentid": 3813523,
+        "name": "3813474: Restaurants"
+    },
+    {
+        "id": 3813515,
+        "parentid": 3813524,
+        "name": "3813515: Real Estate - General"
+    },
+    {
+        "id": 3813323,
+        "parentid": 3813524,
+        "name": "3813323: Real Estate Services"
+    },
+    {
+        "id": 3813450,
+        "parentid": 3813525,
+        "name": "3813450: Oil & Gas - Integrated"
+    },
+    {
+        "id": 3813466,
+        "parentid": 3813525,
+        "name": "3813466: Oil & Gas - Drilling"
+    },
+    {
+        "id": 3813373,
+        "parentid": 3813525,
+        "name": "3813373: Oil & Gas - E&P"
+    },
+    {
+        "id": 3813514,
+        "parentid": 3813525,
+        "name": "3813514: Oil & Gas - Refining & Marketing"
+    },
+    {
+        "id": 3813490,
+        "parentid": 3813525,
+        "name": "3813490: Oil & Gas - Services"
+    },
+    {
+        "id": 3813526,
+        "parentid": 3813525,
+        "name": "3813526: Oil & Gas - Midstream",
+        "children": [
+            {
+                "id": 3813453,
+                "parentid": 3813526,
+                "name": "3813453: Oil & Gas Midstream"
+            }
+        ]
+    },
+    {
+        "id": 3813453,
+        "parentid": 3813526,
+        "name": "3813453: Oil & Gas Midstream"
+    },
+    {
+        "id": 3813530,
+        "parentid": 3813528,
+        "name": "3813530: Advertising Agencies"
+    },
+    {
+        "id": 3813497,
+        "parentid": 3813528,
+        "name": "3813497: Marketing Services"
+    },
+    {
+        "id": 3813376,
+        "parentid": 3813534,
+        "name": "3813376: Security & Protection Services"
+    },
+    {
+        "id": 3813442,
+        "parentid": 3813534,
+        "name": "3813442: Rental & Leasing Services"
+    }
+]

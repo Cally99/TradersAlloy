@@ -1,0 +1,133 @@
+.theme--dark .v-tabs>.v-tabs-bar .ta_tabStyle.v-tab:not(.v-tab--active) {
+    color: white !important;
+    background-color: #6f6f6f;
+}
+
+.theme--dark.v-tabs>.v-tabs-bar .v-tab--disabled {
+    background-color: transparent !important;
+}
+
+.theme--dark .v-tab.highlighted {
+    background-color: #424242;
+    color: #9dff;
+}
+
+.theme--dark .v-tabs-slider  {
+    background-color: #424242;
+}
+
+
+.theme--dark .v-tab.stockTab--text.v-tab--active {
+    background-color:#5a5a5a!important
+}
+
+.theme--dark.v-sheet > .container.surface{
+    background-color: #424242 !important;
+}
+/*
+.theme--dark .fr-toolbar{
+    background: transparent;
+}
+
+.theme--dark .fr-box.fr-basic .fr-wrapper {
+    background: transparent;
+}
+
+
+.theme--dark .fr-element.fr-view > * {
+    color: white!important;
+}
+
+.theme--dark .second-toolbar {
+    background: transparent;
+}
+
+@media (min-width: 992px) {
+.theme--dark  .fr-box.fr-document .fr-wrapper .fr-element {
+    background: transparent!important;
+}
+
+} */
+@media (min-width: 992px) {
+    .fr-box.fr-document{
+        min-width: 100px!important;
+    }
+    .fr-box.fr-document .fr-wrapper{
+        padding: 10px!important;
+        min-width: 100px!important;
+    }
+    .fr-box.fr-document .fr-wrapper .fr-element {
+        min-width: 10px!important;
+        width: unset!important;
+    }
+}
+.theme--dark .blue-grey.lighten-4 {
+    background: #424242!important;
+}
+
+.theme--dark .blue.lighten-5 {
+    background: #424242!important;
+}
+.theme--dark .watchlist_left:hover{
+    box-shadow: none;
+}
+
+.theme--dark  .tradersAlloyBlue {
+    background: #112326 !important;
+}
+.tradersAlloyBlue {
+    background: #316bd2;
+}
+	
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+     canvas[id^="trading-vue-js-grid"]{
+         cursor: none!important;
+     }    
+}
+button {
+    border: none;
+    background: none;
+}
+button:hover {
+    border: none;
+    background: none;
+}
+.v-btn--round {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    background: #fff;
+
+    /* line-height: 20px; */
+}
+.v-btn--round:hover {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    background: red;
+
+    /* line-height: 20px; */
+}
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media {
+    .trading-vue-grid-0 {
+        cursor: none;
+    }
+}}
+
+@media not all and (min-resolution:.001dpcm) { @media {
+    .trading-vue-grid-0 {
+        cursor: none;
+    }
+}}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

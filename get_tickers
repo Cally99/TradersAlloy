@@ -1,0 +1,860 @@
+[1mdiff --git a/.DS_Store b/.DS_Store[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e584102[m
+Binary files /dev/null and b/.DS_Store differ
+[1mdiff --git a/Backend/package-lock.json b/Backend/package-lock.json[m
+[1mindex a9c770a..2d1776e 100644[m
+[1m--- a/Backend/package-lock.json[m
+[1m+++ b/Backend/package-lock.json[m
+[36m@@ -181,7 +181,8 @@[m
+     "@babel/helper-validator-identifier": {[m
+       "version": "7.10.4",[m
+       "resolved": "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.10.4.tgz",[m
+[31m-      "integrity": "sha512-3U9y+43hz7ZM+rzG24Qe2mufW5KhvFg/NhnNph+i9mgCtdTCtMJuI1TMkrIUiK7Ix4PYlRF9I5dhqaLYA/ADXw=="[m
+[32m+[m[32m      "integrity": "sha512-3U9y+43hz7ZM+rzG24Qe2mufW5KhvFg/NhnNph+i9mgCtdTCtMJuI1TMkrIUiK7Ix4PYlRF9I5dhqaLYA/ADXw==",[m
+[32m+[m[32m      "dev": true[m
+     },[m
+     "@babel/helpers": {[m
+       "version": "7.10.4",[m
+[36m@@ -208,7 +209,8 @@[m
+     "@babel/parser": {[m
+       "version": "7.11.0",[m
+       "resolved": "https://registry.npmjs.org/@babel/parser/-/parser-7.11.0.tgz",[m
+[31m-      "integrity": "sha512-qvRvi4oI8xii8NllyEc4MDJjuZiNaRzyb7Y7lup1NqJV8TZHF4O27CcP+72WPn/k1zkgJ6WJfnIbk4jTsVAZHw=="[m
+[32m+[m[32m      "integrity": "sha512-qvRvi4oI8xii8NllyEc4MDJjuZiNaRzyb7Y7lup1NqJV8TZHF4O27CcP+72WPn/k1zkgJ6WJfnIbk4jTsVAZHw==",[m
+[32m+[m[32m      "dev": true[m
+     },[m
+     "@babel/plugin-syntax-async-generators": {[m
+       "version": "7.8.4",[m
+[36m@@ -364,6 +366,7 @@[m
+       "version": "7.11.0",[m
+       "resolved": "https://registry.npmjs.org/@babel/types/-/types-7.11.0.tgz",[m
+       "integrity": "sha512-O53yME4ZZI0jO1EVGtF1ePGl0LHirG4P1ibcD80XyzZcKhcMFeCXmh4Xb1ifGBIV233Qg12x4rBfQgA+tmOukA==",[m
+[32m+[m[32m      "dev": true,[m
+       "requires": {[m
+         "@babel/helper-validator-identifier": "^7.10.4",[m
+         "lodash": "^4.17.19",[m
+[36m@@ -373,7 +376,8 @@[m
+         "lodash": {[m
+           "version": "4.17.19",[m
+           "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.19.tgz",[m
+[31m-          "integrity": "sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ=="[m
+[32m+[m[32m          "integrity": "sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==",[m
+[32m+[m[32m          "dev": true[m
+         }[m
+       }[m
+     },[m
+[36m@@ -1155,14 +1159,6 @@[m
+       "integrity": "sha512-t7uW6eFafjO+qJ3BIV2gGUyZs27egcNRkUdalkud+Qa3+kg//f129iuOFivHDXQ+vnU3fDXuwgv0cqMCbcE8sw==",[m
+       "dev": true[m
+     },[m
+[31m-    "@types/chart.js": {[m
+[31m-      "version": "2.9.25",[m
+[31m-      "resolved": "https://registry.npmjs.org/@types/chart.js/-/chart.js-2.9.25.tgz",[m
+[31m-      "integrity": "sha512-SPgPISpaGM42WL9Dezms4+8fInHxAXDzTs8DwPxhGuJT+jETXlVITTbe8bvK1n+sMmyyelR9B4w0lwMkA24oJg==",[m
+[31m-      "requires": {[m
+[31m-        "moment": "^2.10.2"[m
+[31m-      }[m
+[31m-    },[m
+     "@types/color-name": {[m
+       "version": "1.1.1",[m
+       "resolved": "https://registry.npmjs.org/@types/color-name/-/color-name-1.1.1.tgz",[m
+[36m@@ -1290,7 +1286,8 @@[m
+     "acorn": {[m
+       "version": "7.3.1",[m
+       "resolved": "https://registry.npmjs.org/acorn/-/acorn-7.3.1.tgz",[m
+[31m-      "integrity": "sha512-tLc0wSnatxAQHVHUapaHdz72pi9KUyHjq5KyHjGg9Y8Ifdc79pTh2XvI6I1/chZbnM7QtNKzh66ooDogPZSleA=="[m
+[32m+[m[32m      "integrity": "sha512-tLc0wSnatxAQHVHUapaHdz72pi9KUyHjq5KyHjGg9Y8Ifdc79pTh2XvI6I1/chZbnM7QtNKzh66ooDogPZSleA==",[m
+[32m+[m[32m      "dev": true[m
+     },[m
+     "acorn-globals": {[m
+       "version": "6.0.0",[m
+[36m@@ -1429,11 +1426,6 @@[m
+       "resolved": "https://registry.npmjs.org/arrify/-/arrify-1.0.1.tgz",[m
+       "integrity": "sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0="[m
+     },[m
+[31m-    "asap": {[m
+[31m-      "version": "2.0.6",[m
+[31m-      "resolved": "https://registry.npmjs.org/asap/-/asap-2.0.6.tgz",[m
+[31m-      "integrity": "sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY="[m
+[31m-    },[m
+     "asn1": {[m
+       "version": "0.2.4",[m
+       "resolved": "https://registry.npmjs.org/asn1/-/asn1-0.2.4.tgz",[m
+[36m@@ -1442,11 +1434,6 @@[m
+         "safer-buffer": "~2.1.0"[m
+       }[m
+     },[m
+[31m-    "assert-never": {[m
+[31m-      "version": "1.2.1",[m
+[31m-      "resolved": "https://registry.npmjs.org/assert-never/-/assert-never-1.2.1.tgz",[m
+[31m-      "integrity": "sha512-TaTivMB6pYI1kXwrFlEhLeGfOqoDNdTxjCdwRfFFkEA30Eu+k48W34nlok2EYWJfFFzqaEmichdNM7th6M5HNw=="[m
+[31m-    },[m
+     "assert-plus": {[m
+       "version": "1.0.0",[m
+       "resolved": "https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz",[m
+[36m@@ -1639,14 +1626,6 @@[m
+         "babel-preset-current-node-syntax": "^0.1.2"[m
+       }[m
+     },[m
+[31m-    "babel-walk": {[m
+[31m-      "version": "3.0.0-canary-5",[m
+[31m-      "resolved": "https://registry.npmjs.org/babel-walk/-/babel-walk-3.0.0-canary-5.tgz",[m
+[31m-      "integrity": "sha512-GAwkz0AihzY5bkwIY5QDR+LvsRQgB/B+1foMPvi0FZPMl5fjD7ICiznUiBdLYMH1QYe6vqu4gWYytZOccLouFw==",[m
+[31m-      "requires": {[m
+[31m-        "@babel/types": "^7.9.6"[m
+[31m-      }[m
+[31m-    },[m
+     "balanced-match": {[m
+       "version": "1.0.0",[m
+       "resolved": "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz",[m
+[36m@@ -1955,40 +1934,6 @@[m
+       "integrity": "sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==",[m
+       "dev": true[m
+     },[m
+[31m-    "character-parser": {[m
+[31m-      "version": "2.2.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/character-parser/-/character-parser-2.2.0.tgz",[m
+[31m-      "integrity": "sha1-x84o821LzZdE5f/CxfzeHHMmH8A=",[m
+[31m-      "requires": {[m
+[31m-        "is-regex": "^1.0.3"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "chart.js": {[m
+[31m-      "version": "2.9.3",[m
+[31m-      "resolved": "https://registry.npmjs.org/chart.js/-/chart.js-2.9.3.tgz",[m
+[31m-      "integrity": "sha512-+2jlOobSk52c1VU6fzkh3UwqHMdSlgH1xFv9FKMqHiNCpXsGPQa/+81AFa+i3jZ253Mq9aAycPwDjnn1XbRNNw==",[m
+[31m-      "requires": {[m
+[31m-        "chartjs-color": "^2.1.0",[m
+[31m-        "moment": "^2.10.2"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "chartjs-color": {[m
+[31m-      "version": "2.4.1",[m
+[31m-      "resolved": "https://registry.npmjs.org/chartjs-color/-/chartjs-color-2.4.1.tgz",[m
+[31m-      "integrity": "sha512-haqOg1+Yebys/Ts/9bLo/BqUcONQOdr/hoEr2LLTRl6C5LXctUdHxsCYfvQVg5JIxITrfCNUDr4ntqmQk9+/0w==",[m
+[31m-      "requires": {[m
+[31m-        "chartjs-color-string": "^0.6.0",[m
+[31m-        "color-convert": "^1.9.3"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "chartjs-color-string": {[m
+[31m-      "version": "0.6.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/chartjs-color-string/-/chartjs-color-string-0.6.0.tgz",[m
+[31m-      "integrity": "sha512-TIB5OKn1hPJvO7JcteW4WY/63v6KwEdt6udfnDE9iCAZgy+V4SrbSxoIbTw/xkUIapjEI4ExGtD0+6D3KyFd7A==",[m
+[31m-      "requires": {[m
+[31m-        "color-name": "^1.0.0"[m
+[31m-      }[m
+[31m-    },[m
+     "check-error": {[m
+       "version": "1.0.2",[m
+       "resolved": "https://registry.npmjs.org/check-error/-/check-error-1.0.2.tgz",[m
+[36m@@ -2213,15 +2158,6 @@[m
+         "xdg-basedir": "^3.0.0"[m
+       }[m
+     },[m
+[31m-    "constantinople": {[m
+[31m-      "version": "4.0.1",[m
+[31m-      "resolved": "https://registry.npmjs.org/constantinople/-/constantinople-4.0.1.tgz",[m
+[31m-      "integrity": "sha512-vCrqcSIq4//Gx74TXXCGnHpulY1dskqLTFGDmhrGxzeXL8lF8kvXv6mpNWlJj1uD4DW23D4ljAqbY4RRaaUZIw==",[m
+[31m-      "requires": {[m
+[31m-        "@babel/parser": "^7.6.0",[m
+[31m-        "@babel/types": "^7.6.1"[m
+[31m-      }[m
+[31m-    },[m
+     "content-disposition": {[m
+       "version": "0.5.3",[m
+       "resolved": "https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.3.tgz",[m
+[36m@@ -2504,11 +2440,6 @@[m
+       "integrity": "sha512-JC/eHYEC3aSS0vZGjuoc4vHA0yAQTzhQQldXMeMF+JlxLGJlCO38Gma82NV9gk1jGFz8mDzUMeaKXvjRRdJ2dg==",[m
+       "dev": true[m
+     },[m
+[31m-    "doctypes": {[m
+[31m-      "version": "1.1.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/doctypes/-/doctypes-1.1.0.tgz",[m
+[31m-      "integrity": "sha1-6oCxBqh1OHdOijpKWv4pPeSJ4Kk="[m
+[31m-    },[m
+     "dom-serializer": {[m
+       "version": "0.1.1",[m
+       "resolved": "https://registry.npmjs.org/dom-serializer/-/dom-serializer-0.1.1.tgz",[m
+[36m@@ -3920,7 +3851,8 @@[m
+     "has-symbols": {[m
+       "version": "1.0.1",[m
+       "resolved": "https://registry.npmjs.org/has-symbols/-/has-symbols-1.0.1.tgz",[m
+[31m-      "integrity": "sha512-PLcsoqu++dmEIZB+6totNFKq/7Do+Z0u4oT0zKOJNl3lYK6vGwwu2hjHs+68OEZbTjiUE9bgOABXbP/GvrS0Kg=="[m
+[32m+[m[32m      "integrity": "sha512-PLcsoqu++dmEIZB+6totNFKq/7Do+Z0u4oT0zKOJNl3lYK6vGwwu2hjHs+68OEZbTjiUE9bgOABXbP/GvrS0Kg==",[m
+[32m+[m[32m      "dev": true[m
+     },[m
+     "has-value": {[m
+       "version": "1.0.0",[m
+[36m@@ -4235,15 +4167,6 @@[m
+       "dev": true,[m
+       "optional": true[m
+     },[m
+[31m-    "is-expression": {[m
+[31m-      "version": "4.0.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/is-expression/-/is-expression-4.0.0.tgz",[m
+[31m-      "integrity": "sha512-zMIXX63sxzG3XrkHkrAPvm/OVZVSCPNkwMHU8oTX7/U3AL78I0QXCEICXUM13BIa8TYGZ68PiTKfQz3yaTNr4A==",[m
+[31m-      "requires": {[m
+[31m-        "acorn": "^7.1.1",[m
+[31m-        "object-assign": "^4.1.1"[m
+[31m-      }[m
+[31m-    },[m
+     "is-extendable": {[m
+       "version": "0.1.1",[m
+       "resolved": "https://registry.npmjs.org/is-extendable/-/is-extendable-0.1.1.tgz",[m
+[36m@@ -4341,11 +4264,6 @@[m
+       "integrity": "sha1-DFLlS8yjkbssSUsh6GJtczbG45c=",[m
+       "dev": true[m
+     },[m
+[31m-    "is-promise": {[m
+[31m-      "version": "2.2.2",[m
+[31m-      "resolved": "https://registry.npmjs.org/is-promise/-/is-promise-2.2.2.tgz",[m
+[31m-      "integrity": "sha512-+lP4/6lKUBfQjZ2pdxThZvLUAafmZb8OAxFb8XXtiQmS35INgr85hdOGoEs124ez1FCnZJt6jau/T+alh58QFQ=="[m
+[31m-    },[m
+     "is-redirect": {[m
+       "version": "1.0.0",[m
+       "resolved": "https://registry.npmjs.org/is-redirect/-/is-redirect-1.0.0.tgz",[m
+[36m@@ -4355,6 +4273,7 @@[m
+       "version": "1.1.0",[m
+       "resolved": "https://registry.npmjs.org/is-regex/-/is-regex-1.1.0.tgz",[m
+       "integrity": "sha512-iI97M8KTWID2la5uYXlkbSDQIg4F6o1sYboZKKTDpnDQMLtUL86zxhgDet3Q2SriaYsyGqZ6Mn2SjbRKeLHdqw==",[m
+[32m+[m[32m      "dev": true,[m
+       "requires": {[m
+         "has-symbols": "^1.0.1"[m
+       }[m
+[36m@@ -6360,11 +6279,6 @@[m
+         }[m
+       }[m
+     },[m
+[31m-    "js-stringify": {[m
+[31m-      "version": "1.0.2",[m
+[31m-      "resolved": "https://registry.npmjs.org/js-stringify/-/js-stringify-1.0.2.tgz",[m
+[31m-      "integrity": "sha1-Fzb939lyTyijaCrcYjCufk6Weds="[m
+[31m-    },[m
+     "js-tokens": {[m
+       "version": "4.0.0",[m
+       "resolved": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz",[m
+[36m@@ -6526,15 +6440,6 @@[m
+         "verror": "1.10.0"[m
+       }[m
+     },[m
+[31m-    "jstransformer": {[m
+[31m-      "version": "1.0.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/jstransformer/-/jstransformer-1.0.0.tgz",[m
+[31m-      "integrity": "sha1-7Yvwkh4vPx7U1cGkT2hwntJHIsM=",[m
+[31m-      "requires": {[m
+[31m-        "is-promise": "^2.0.0",[m
+[31m-        "promise": "^7.0.1"[m
+[31m-      }[m
+[31m-    },[m
+     "kind-of": {[m
+       "version": "6.0.3",[m
+       "resolved": "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz",[m
+[36m@@ -7850,7 +7755,8 @@[m
+     "path-parse": {[m
+       "version": "1.0.6",[m
+       "resolved": "https://registry.npmjs.org/path-parse/-/path-parse-1.0.6.tgz",[m
+[31m-      "integrity": "sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw=="[m
+[32m+[m[32m      "integrity": "sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==",[m
+[32m+[m[32m      "dev": true[m
+     },[m
+     "path-proxy": {[m
+       "version": "1.0.0",[m
+[36m@@ -8185,14 +8091,6 @@[m
+       "resolved": "https://registry.npmjs.org/progress/-/progress-2.0.3.tgz",[m
+       "integrity": "sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA=="[m
+     },[m
+[31m-    "promise": {[m
+[31m-      "version": "7.3.1",[m
+[31m-      "resolved": "https://registry.npmjs.org/promise/-/promise-7.3.1.tgz",[m
+[31m-      "integrity": "sha512-nolQXZ/4L+bP/UGlkfaIujX9BKxGwmQ9OT4mOt5yvy8iK1h3wqTEJCijzGANTCCl9nWjY41juyAn2K3Q1hLLTg==",[m
+[31m-      "requires": {[m
+[31m-        "asap": "~2.0.3"[m
+[31m-      }[m
+[31m-    },[m
+     "promisify-call": {[m
+       "version": "2.0.4",[m
+       "resolved": "https://registry.npmjs.org/promisify-call/-/promisify-call-2.0.4.tgz",[m
+[36m@@ -8283,118 +8181,6 @@[m
+       "resolved": "https://registry.npmjs.org/pstree.remy/-/pstree.remy-1.1.7.tgz",[m
+       "integrity": "sha512-xsMgrUwRpuGskEzBFkH8NmTimbZ5PcPup0LA8JJkHIm2IMUbQcpo3yeLNWVrufEYjh8YwtSVh0xz6UeWc5Oh5A=="[m
+     },[m
+[31m-    "pug": {[m
+[31m-      "version": "3.0.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/pug/-/pug-3.0.0.tgz",[m
+[31m-      "integrity": "sha512-inmsJyFBSHZaiGLaguoFgJGViX0If6AcfcElimvwj9perqjDpUpw79UIEDZbWFmoGVidh08aoE+e8tVkjVJPCw==",[m
+[31m-      "requires": {[m
+[31m-        "pug-code-gen": "^3.0.0",[m
+[31m-        "pug-filters": "^4.0.0",[m
+[31m-        "pug-lexer": "^5.0.0",[m
+[31m-        "pug-linker": "^4.0.0",[m
+[31m-        "pug-load": "^3.0.0",[m
+[31m-        "pug-parser": "^6.0.0",[m
+[31m-        "pug-runtime": "^3.0.0",[m
+[31m-        "pug-strip-comments": "^2.0.0"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "pug-attrs": {[m
+[31m-      "version": "3.0.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/pug-attrs/-/pug-attrs-3.0.0.tgz",[m
+[31m-      "integrity": "sha512-azINV9dUtzPMFQktvTXciNAfAuVh/L/JCl0vtPCwvOA21uZrC08K/UnmrL+SXGEVc1FwzjW62+xw5S/uaLj6cA==",[m
+[31m-      "requires": {[m
+[31m-        "constantinople": "^4.0.1",[m
+[31m-        "js-stringify": "^1.0.2",[m
+[31m-        "pug-runtime": "^3.0.0"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "pug-code-gen": {[m
+[31m-      "version": "3.0.1",[m
+[31m-      "resolved": "https://registry.npmjs.org/pug-code-gen/-/pug-code-gen-3.0.1.tgz",[m
+[31m-      "integrity": "sha512-xJIGvmXTQlkJllq6hqxxjRWcay2F9CU69TuAuiVZgHK0afOhG5txrQOcZyaPHBvSWCU/QQOqEp5XCH94rRZpBQ==",[m
+[31m-      "requires": {[m
+[31m-        "constantinople": "^4.0.1",[m
+[31m-        "doctypes": "^1.1.0",[m
+[31m-        "js-stringify": "^1.0.2",[m
+[31m-        "pug-attrs": "^3.0.0",[m
+[31m-        "pug-error": "^2.0.0",[m
+[31m-        "pug-runtime": "^3.0.0",[m
+[31m-        "void-elements": "^3.1.0",[m
+[31m-        "with": "^7.0.0"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "pug-error": {[m
+[31m-      "version": "2.0.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/pug-error/-/pug-error-2.0.0.tgz",[m
+[31m-      "integrity": "sha512-sjiUsi9M4RAGHktC1drQfCr5C5eriu24Lfbt4s+7SykztEOwVZtbFk1RRq0tzLxcMxMYTBR+zMQaG07J/btayQ=="[m
+[31m-    },[m
+[31m-    "pug-filters": {[m
+[31m-      "version": "4.0.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/pug-filters/-/pug-filters-4.0.0.tgz",[m
+[31m-      "integrity": "sha512-yeNFtq5Yxmfz0f9z2rMXGw/8/4i1cCFecw/Q7+D0V2DdtII5UvqE12VaZ2AY7ri6o5RNXiweGH79OCq+2RQU4A==",[m
+[31m-      "requires": {[m
+[31m-        "constantinople": "^4.0.1",[m
+[31m-        "jstransformer": "1.0.0",[m
+[31m-        "pug-error": "^2.0.0",[m
+[31m-        "pug-walk": "^2.0.0",[m
+[31m-        "resolve": "^1.15.1"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "pug-lexer": {[m
+[31m-      "version": "5.0.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/pug-lexer/-/pug-lexer-5.0.0.tgz",[m
+[31m-      "integrity": "sha512-52xMk8nNpuyQ/M2wjZBN5gXQLIylaGkAoTk5Y1pBhVqaopaoj8Z0iVzpbFZAqitL4RHNVDZRnJDsqEYe99Ti0A==",[m
+[31m-      "requires": {[m
+[31m-        "character-parser": "^2.2.0",[m
+[31m-        "is-expression": "^4.0.0",[m
+[31m-        "pug-error": "^2.0.0"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "pug-linker": {[m
+[31m-      "version": "4.0.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/pug-linker/-/pug-linker-4.0.0.tgz",[m
+[31m-      "integrity": "sha512-gjD1yzp0yxbQqnzBAdlhbgoJL5qIFJw78juN1NpTLt/mfPJ5VgC4BvkoD3G23qKzJtIIXBbcCt6FioLSFLOHdw==",[m
+[31m-      "requires": {[m
+[31m-        "pug-error": "^2.0.0",[m
+[31m-        "pug-walk": "^2.0.0"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "pug-load": {[m
+[31m-      "version": "3.0.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/pug-load/-/pug-load-3.0.0.tgz",[m
+[31m-      "integrity": "sha512-OCjTEnhLWZBvS4zni/WUMjH2YSUosnsmjGBB1An7CsKQarYSWQ0GCVyd4eQPMFJqZ8w9xgs01QdiZXKVjk92EQ==",[m
+[31m-      "requires": {[m
+[31m-        "object-assign": "^4.1.1",[m
+[31m-        "pug-walk": "^2.0.0"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "pug-parser": {[m
+[31m-      "version": "6.0.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/pug-parser/-/pug-parser-6.0.0.tgz",[m
+[31m-      "integrity": "sha512-ukiYM/9cH6Cml+AOl5kETtM9NR3WulyVP2y4HOU45DyMim1IeP/OOiyEWRr6qk5I5klpsBnbuHpwKmTx6WURnw==",[m
+[31m-      "requires": {[m
+[31m-        "pug-error": "^2.0.0",[m
+[31m-        "token-stream": "1.0.0"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "pug-runtime": {[m
+[31m-      "version": "3.0.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/pug-runtime/-/pug-runtime-3.0.0.tgz",[m
+[31m-      "integrity": "sha512-GoEPcmQNnaTsePEdVA05bDpY+Op5VLHKayg08AQiqJBWU/yIaywEYv7TetC5dEQS3fzBBoyb2InDcZEg3mPTIA=="[m
+[31m-    },[m
+[31m-    "pug-strip-comments": {[m
+[31m-      "version": "2.0.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/pug-strip-comments/-/pug-strip-comments-2.0.0.tgz",[m
+[31m-      "integrity": "sha512-zo8DsDpH7eTkPHCXFeAk1xZXJbyoTfdPlNR0bK7rpOMuhBYb0f5qUVCO1xlsitYd3w5FQTK7zpNVKb3rZoUrrQ==",[m
+[31m-      "requires": {[m
+[31m-        "pug-error": "^2.0.0"[m
+[31m-      }[m
+[31m-    },[m
+[31m-    "pug-walk": {[m
+[31m-      "version": "2.0.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/pug-walk/-/pug-walk-2.0.0.tgz",[m
+[31m-      "integrity": "sha512-yYELe9Q5q9IQhuvqsZNwA5hfPkMJ8u92bQLIMcsMxf/VADjNtEYptU+inlufAFYcWdHlwNfZOEnOOQrZrcyJCQ=="[m
+[31m-    },[m
+     "pump": {[m
+       "version": "3.0.0",[m
+       "resolved": "https://registry.npmjs.org/pump/-/pump-3.0.0.tgz",[m
+[36m@@ -8751,6 +8537,7 @@[m
+       "version": "1.17.0",[m
+       "resolved": "https://registry.npmjs.org/resolve/-/resolve-1.17.0.tgz",[m
+       "integrity": "sha512-ic+7JYiV8Vi2yzQGFWOkiZD5Z9z7O2Zhm9XMaTxdJExKasieFCr+yXZ/WmXsckHiKl12ar0y6XiXDx3m4RHn1w==",[m
+[32m+[m[32m      "dev": true,[m
+       "requires": {[m
+         "path-parse": "^1.0.6"[m
+       }[m
+[36m@@ -9638,7 +9425,8 @@[m
+     "to-fast-properties": {[m
+       "version": "2.0.0",[m
+       "resolved": "https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-2.0.0.tgz",[m
+[31m-      "integrity": "sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4="[m
+[32m+[m[32m      "integrity": "sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=",[m
+[32m+[m[32m      "dev": true[m
+     },[m
+     "to-object-path": {[m
+       "version": "0.3.0",[m
+[36m@@ -9683,11 +9471,6 @@[m
+       "resolved": "https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.0.tgz",[m
+       "integrity": "sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw=="[m
+     },[m
+[31m-    "token-stream": {[m
+[31m-      "version": "1.0.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/token-stream/-/token-stream-1.0.0.tgz",[m
+[31m-      "integrity": "sha1-zCAOqyYT9BZtJ/+a/HylbUnfbrQ="[m
+[31m-    },[m
+     "topo": {[m
+       "version": "3.0.3",[m
+       "resolved": "https://registry.npmjs.org/topo/-/topo-3.0.3.tgz",[m
+[36m@@ -10010,19 +9793,6 @@[m
+         "extsprintf": "^1.2.0"[m
+       }[m
+     },[m
+[31m-    "void-elements": {[m
+[31m-      "version": "3.1.0",[m
+[31m-      "resolved": "https://registry.npmjs.org/void-elements/-/void-elements-3.1.0.tgz",[m
+[31m-      "integrity": "sha1-YU9/v42AHwu18GYfWy9XhXUOTwk="[m
+[31m-    },[m
+[31m-    "vue-chartjs": {[m
+[31m-      "version": "3.5.1",[m
+[31m-      "resolved": "https://registry.npmjs.org/vue-chartjs/-/vue-chartjs-3.5.1.tgz",[m
+[31m-      "integrity": "sha512-foocQbJ7FtveICxb4EV5QuVpo6d8CmZFmAopBppDIGKY+esJV8IJgwmEW0RexQhxqXaL/E1xNURsgFFYyKzS/g==",[m
+[31m-      "requires": {[m
+[31m-        "@types/chart.js": "^2.7.55"[m
+[31m-      }[m
+[31m-    },[m
+     "w3c-hr-time": {[m
+       "version": "1.0.2",[m
+       "resolved": "https://registry.npmjs.org/w3c-hr-time/-/w3c-hr-time-1.0.2.tgz",[m
+[36m@@ -10168,17 +9938,6 @@[m
+         "triple-beam": "^1.2.0"[m
+       }[m
+     },[m
+[31m-    "with": {[m
+[31m-      "version": "7.0.2",[m
+[31m-      "resolved": "https://registry.npmjs.org/with/-/with-7.0.2.tgz",[m
+[31m-      "integrity": "sha512-RNGKj82nUPg3g5ygxkQl0R937xLyho1J24ItRCBTr/m1YnZkzJy1hUiHUJrc/VlsDQzsCnInEGSg3bci0Lmd4w==",[m
+[31m-      "requires": {[m
+[31m-        "@babel/parser": "^7.9.6",[m
+[31m-        "@babel/types": "^7.9.6",[m
+[31m-        "assert-never": "^1.2.1",[m
+[31m-        "babel-walk": "3.0.0-canary-5"[m
+[31m-      }[m
+[31m-    },[m
+     "with-callback": {[m
+       "version": "1.0.2",[m
+       "resolved": "https://registry.npmjs.org/with-callback/-/with-callback-1.0.2.tgz",[m
+[1mdiff --git a/Backend/package.json b/Backend/package.json[m
+[1mindex 63283f0..b08e390 100644[m
+[1m--- a/Backend/package.json[m
+[1m+++ b/Backend/package.json[m
+[36m@@ -5,7 +5,7 @@[m
+   "main": "index.js",[m
+   "scripts": {[m
+     "start": "node ./node_modules/nodemon/bin/nodemon.js src/app.js",[m
+[31m-    "test": "mocha test --recursive --exit"[m
+[32m+[m[32m    "test": "mocha --recursive --exit"[m
+   },[m
+   "keywords": [[m
+     "Postgres",[m
+[36m@@ -18,7 +18,6 @@[m
+   "dependencies": {[m
+     "axios": "^0.19.1",[m
+     "body-parser": "^1.18.2",[m
+[31m-    "chart.js": "^2.9.3",[m
+     "cheerio": "^1.0.0-rc.3",[m
+     "cors": "^2.8.5",[m
+     "dotenv": "^8.2.0",[m
+[36m@@ -34,13 +33,11 @@[m
+     "pdfreader": "^1.0.6",[m
+     "pg": "^7.4.1",[m
+     "pg-hstore": "^2.3.2",[m
+[31m-    "pug": "^3.0.0",[m
+     "puppeteer": "^2.1.1",[m
+     "request": "^2.88.2",[m
+     "request-promise": "^4.2.5",[m
+     "sequelize": "^4.44.4",[m
+     "stripe": "^8.66.0",[m
+[31m-    "vue-chartjs": "^3.5.1",[m
+     "winston": "^3.2.1",[m
+     "xml2json": "^0.12.0"[m
+   },[m
+[1mdiff --git a/Backend/server/controllers/CompanyDescriptionController.js b/Backend/server/controllers/CompanyDescriptionController.js[m
+[1mindex 9fe4cd3..2f8286b 100644[m
+[1m--- a/Backend/server/controllers/CompanyDescriptionController.js[m
+[1m+++ b/Backend/server/controllers/CompanyDescriptionController.js[m
+[36m@@ -49,8 +49,8 @@[m [mfunction get_tickers() {[m
+                     if (exchange_id == '35183' || exchange_id == '35262') exchange_key = '.CO'[m
+                     let url = 'https://finance.yahoo.com/quote/' + ticker_name + exchange_key + '/profile?p=' + ticker_name + exchange_key[m
+                     await get_description(url, results[i].isin)[m
+[32m+[m[32m                    console.log('inserted all descriptions +++++++++++++++++++')[m
+                 }[m
+[31m-                console.log('inserted all descriptions +++++++++++++++++++')[m
+             })[m
+             .catch(error => console.log('error', error));[m
+ }[m
+[36m@@ -77,7 +77,7 @@[m [mfunction updateCompanyTable(description, isin) {[m
+         sequelize.query(`[m
+                     UPDATE Company[m
+                     SET description = :description[m
+[31m-                    WHERE isin = :isin AND description is Null`,[m
+[32m+[m[32m                    WHERE isin = :isin AND description IS Null`,[m
+                 { nest: false, replacements: {description: description, isin: isin }, type: sequelize.QueryTypes.SELECT })[m
+             .then(results => {[m
+                 console.log('------- updated company description ------', isin)[m
+[36m@@ -91,10 +91,10 @@[m [mfunction updateCompanyTable(description, isin) {[m
+ }[m
+ [m
+ module.exports = {[m
+[31m-    // fetchMapFinancials(req, res) {[m
+[31m-    //     res.status(200).send(arrayFinancials)[m
+[31m-    // },[m
+[31m-    // fetchFinancialData(req, res) {[m
+[31m-    //     res.status(200).send(mapFinancials.get(req.params.isin))[m
+[31m-    // }[m
+[32m+[m[32m    fetchMapFinancials(req, res) {[m
+[32m+[m[32m        res.status(200).send(arrayFinancials)[m
+[32m+[m[32m    },[m
+[32m+[m[32m    fetchFinancialData(req, res) {[m
+[32m+[m[32m        res.status(200).send(mapFinancials.get(req.params.isin))[m
+[32m+[m[32m    }[m
+ };[m
+\ No newline at end of file[m
+[1mdiff --git a/Backend/server/controllers/CompanyReportController.js b/Backend/server/controllers/CompanyReportController.js[m
+[1mindex 19e428a..7c191f0 100644[m
+[1m--- a/Backend/server/controllers/CompanyReportController.js[m
+[1m+++ b/Backend/server/controllers/CompanyReportController.js[m
+[36m@@ -48,7 +48,7 @@[m [mmodule.exports = {[m
+                             SRP.uuid,[m
+                             SRP.audio,[m
+                             SRP.language,[m
+[31m-                            SRP.period||'-XYZ' as period_sorted   -- hack to order the periods[m
+[32m+[m[32m                            SRP.period||'-XYZ'   -- hack to order the periods[m
+                 FROM    public.company_report_pdf as SRP[m
+                 WHERE   SRP.isin = :isin[m
+                 ORDER BY 4[m
+[1mdiff --git a/Backend/server/controllers/CompanyReportFinancialsController.js b/Backend/server/controllers/CompanyReportFinancialsController.js[m
+[1mindex c4565ee..2c5cd29 100644[m
+[1m--- a/Backend/server/controllers/CompanyReportFinancialsController.js[m
+[1m+++ b/Backend/server/controllers/CompanyReportFinancialsController.js[m
+[36m@@ -38,7 +38,6 @@[m [mfunction getFinancialsData() {[m
+     sequelize.query(`[m
+                 SELECT  isin,[m
+                     period,[m
+[31m-                    date_report,[m
+                     eps,[m
+                     sales,[m
+                     sales - gp              AS costofgoodssold,[m
+[36m@@ -72,7 +71,6 @@[m [mfunction getFinancialsData() {[m
+                     .map((item, key) => ({[m
+                         isin: _.map(item, 'isin'),[m
+                         period: _.map(item, 'period'),[m
+[31m-                        date_report: _.map(item, 'date_report'),[m
+                         eps: _.map(item, 'eps'),[m
+                         sales: _.map(item, 'sales'),[m
+                         profit: _.map(item, 'profit'),[m
+[1mdiff --git a/Backend/server/controllers/UserEmailContentController.js b/Backend/server/controllers/UserEmailContentController.js[m
+[1mindex 20667be..48bc751 100644[m
+[1m--- a/Backend/server/controllers/UserEmailContentController.js[m
+[1m+++ b/Backend/server/controllers/UserEmailContentController.js[m
+[36m@@ -6,41 +6,6 @@[m [mmodule.exports.weeklyContent = function() {[m
+     console.log('*** 1.1' );[m
+     let isTest = 0;[m
+     return new Promise((resolve, reject) => {[m
+[31m-/*[m
+[31m-                        (select  isin as ISIN, max(date_report) as REPORT_DATE[m
+[31m-                        from company_report[m
+[31m-                        where eps is not  null[m
+[31m-                        and date_report > CURRENT_DATE - 10[m
+[31m-                        group by isin[m
+[31m-                        ) as sub[m
+[31m-            WHERE   (U.email = 'andrew.boddy.temp@gmail.com')[m
+[31m-            AND     I.user_id = U.user_id[m
+[31m-            AND     I.isin = CR.isin[m
+[31m-            AND     I.isin = sub.ISIN[m
+[31m-            AND     CR.date_report = sub.REPORT_DATE[m
+[31m-        UNION[m
+[31m-            SELECT  U.email,[m
+[31m-                    'IMMINENT',[m
+[31m-                    sub.REPORT_DATE,[m
+[31m-                    I.insref,[m
+[31m-                    I.ticker,[m
+[31m-                    I.isin,[m
+[31m-                    I.name,[m
+[31m-                    null,[m
+[31m-                    null[m
+[31m-            FROM    public.user_watchlist_item  as I,[m
+[31m-                    public.users                as U,[m
+[31m-                        (select  isin as ISIN, min(date_report) as REPORT_DATE[m
+[31m-                        from company_calendar[m
+[31m-                        where  date_report BETWEEN CURRENT_DATE AND CURRENT_DATE + 10[m
+[31m-                        group by isin[m
+[31m-                        ) as sub[m
+[31m-            WHERE   (U.email = 'andrew.boddy.temp@gmail.com')[m
+[31m-            AND     U.user_id = I.user_id[m
+[31m-            AND     I.isin = sub.ISIN[m
+[31m-        ORDER BY 1,2,3;[m
+[31m-* */[m
+[31m-[m
+         connection.query(`[m
+ SELECT  U.email,[m
+                     'PAST'                      as time_group,[m
+[1mdiff --git a/Backend/server/controllers/UserTxController.js b/Backend/server/controllers/UserTxController.js[m
+[1mdeleted file mode 100644[m
+[1mindex 87f5d7c..0000000[m
+[1m--- a/Backend/server/controllers/UserTxController.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,82 +0,0 @@[m
+[31m-const UserTx = require('../models').UserTx;[m
+[31m-[m
+[31m-var formidable = require('formidable');[m
+[31m-var fs = require('fs');[m
+[31m-var parse = require('csv-parse');[m
+[31m-const { match } = require('assert');[m
+[31m-[m
+[31m-module.exports = {[m
+[31m-[m
+[31m-    save_UserTx(req, res) {[m
+[31m-        let match_table = [];[m
+[31m-        match_table['Insättning'] = 'DEPOSIT';[m
+[31m-        match_table['Köp'] = 'BUY';[m
+[31m-        match_table['Räntor'] = 'INTEREST';[m
+[31m-        match_table['Sälj'] = 'SELL';[m
+[31m-        match_table['Split'] = 'SPLIT';[m
+[31m-        match_table['Utdelning'] = 'DIVIDEND';[m
+[31m-        match_table['Uttag'] = 'WITHDRAW';[m
+[31m-[m
+[31m-        let form = formidable.IncomingForm(),[m
+[31m-            files = [],[m
+[31m-            fields = [];[m
+[31m-        form.uploadDir=  __dirname + `/../../upload/`[m
+[31m-        form.on('field', (field, value)=>{[m
+[31m-            fields.push([field, value])[m
+[31m-        })[m
+[31m-        .on('file', (field, file)=>{[m
+[31m-            files.push([field, file])[m
+[31m-        })[m
+[31m-        .on('end', ()=> {[m
+[31m-            for (index in files) {[m
+[31m-                var file = files[index];[m
+[31m-                var oldpath = file[1].path;[m
+[31m-                var newpath = form.uploadDir + file[1].name;[m
+[31m-                fs.rename(oldpath, newpath, function(err) {[m
+[31m-                    var csvData = [];[m
+[31m-                    fs.createReadStream(newpath).pipe(parse({delimiter: '@'}))[m
+[31m-                    .on('data', async function(csvrow) {[m
+[31m-                        let temp_data = csvrow.join('').split(',').join('.').split(';')[m
+[31m-                        let type;[m
+[31m-                        let data = {[m
+[31m-                            "tx_date" : temp_data[0],[m
+[31m-                            "user_id": parseInt(fields[0][1]),[m
+[31m-                            "account": temp_data[1],[m
+[31m-                            "tx_type": (type = match_table[temp_data[2]]) ? type : "UNKNOWN",[m
+[31m-                            "description": temp_data[3],[m
+[31m-                            "qty": isNaN(parseFloat(temp_data[4])) ? 0 : parseFloat(temp_data[4]),[m
+[31m-                            "exchange_rate": isNaN(parseFloat(temp_data[5])) ? 0 : parseFloat(temp_data[5]),[m
+[31m-                            "amount": isNaN(parseFloat(temp_data[6])) ? 0 : parseFloat(temp_data[6]),[m
+[31m-                            "commission": (temp_data[7] == '-') ? 0 : temp_data[7],[m
+[31m-                            "currency": temp_data[8],[m
+[31m-                            "isin": temp_data[9],[m
+[31m-                        }[m
+[31m-                        csvData.push(data);[m
+[31m-                        if (data.tx_date != 'Datum') {[m
+[31m-                            await UserTx[m
+[31m-                                .create(data)[m
+[31m-                        }[m
+[31m-                    })[m
+[31m-                    .on('end', function() {[m
+[31m-                        csvData.shift();[m
+[31m-                        res.status(200).send(csvData)[m
+[31m-                        // return UserTx[m
+[31m-                        //     .bulkCreate(csvData)[m
+[31m-                        //     .then(() => res.status(200).send(csvData))[m
+[31m-                        //     .catch(error => res.status(400).send(error))[m
+[31m-                        console.log('-----------------',csvData);[m
+[31m-                        console.log('-----------------', fields[0][1]);[m
+[31m-                    })[m
+[31m-                })       [m
+[31m-            }    [m
+[31m-        })[m
+[31m-        form.parse(req);[m
+[31m-    },[m
+[31m-    fetchTx(req, res) {[m
+[31m-        return UserTx.findAll({where: { user_id: req.params.user_id }})[m
+[31m-            .then(items => res.status(200).send(items))[m
+[31m-            .catch(error => {[m
+[31m-                res.status(400).send(error)[m
+[31m-            })[m
+[31m-    }[m
+[31m-};[m
+[1mdiff --git a/Backend/server/controllers/index.js b/Backend/server/controllers/index.js[m
+[1mindex c68e75f..5e05bb4 100644[m
+[1m--- a/Backend/server/controllers/index.js[m
+[1m+++ b/Backend/server/controllers/index.js[m
+[36m@@ -14,7 +14,6 @@[m [mconst UserScreenController = require('./UserScreenController');[m
+ const CompanyController = require('./CompanyController');[m
+ const CompanyReportController = require('./CompanyReportController');[m
+ const CompanyNewsController = require('./CompanyNewsController');[m
+[31m-const UserTxController = require('./UserTxController');[m
+ const InsiderController = require('./InsiderController');[m
+ const PDFController = require('./PDFController');[m
+ [m
+[36m@@ -56,6 +55,5 @@[m [mmodule.exports = {[m
+     AdminController,[m
+     Stripe,[m
+     CompanyReportFinancialsController,[m
+[31m-    CompanyDescriptionController,[m
+[31m-    UserTxController[m
+[32m+[m[32m    CompanyDescriptionController[m
+ }[m
+[1mdiff --git a/Backend/server/helpers/emailer.js b/Backend/server/helpers/emailer.js[m
+[1mindex 2453f52..52c7a3a 100644[m
+[1m--- a/Backend/server/helpers/emailer.js[m
+[1m+++ b/Backend/server/helpers/emailer.js[m
+[36m@@ -41,9 +41,9 @@[m [memailFooter = '<div style="margin-top:30px;color:white;font-size:1.2rem;width:10[m
+ Send this once a week[m
+ TODO: 1. corner cases when there is nothing to report[m
+ aaaa@gmail.com[m
+[31m-    [{... IMMINENT ...}[m
+[31m-    ,{... IMMINENT ...}[m
+[31m-    ,{... PAST ...}][m
+[32m+[m[32m    [{}[m
+[32m+[m[32m    ,{}[m
+[32m+[m[32m    ,{}][m
+ bbbb@gmail.com[m
+     [{}[m
+     ,{}[m
+[36m@@ -54,10 +54,10 @@[m [mexports.weeklyEmailTemplate = function(emails) {[m
+         let emailContent = emailHeader;[m
+         let emailSubject = "Traders Alloy Veckorapport";[m
+         let time_group_state = 'IMMINENT';[m
+[31m-//        let weekNumber = new Date().getWeekOfYear();[m
+[32m+[m[32m        let weekNumber = new Date().getWeekOfYear();[m
+ [m
+         emailContent += '<table>';[m
+[31m-        emailContent += '<tr><td colspan="5" style="color:#cccccc; font-size:2rem; font-weight:600;">Kommande rapporter inom 10 dagger</td></tr>';[m
+[32m+[m[32m        emailContent += '<tr><td colspan="5" style="color:#cccccc; font-size:2rem; font-weight:600;">Kommande rapporter v.'+weekNumber+'</td></tr>';[m
+ [m
+         email.items.forEach(item => {[m
+             let days = Math.round((Date.parse(item.date_report) - Date.now()) / (1000 * 60 * 60 * 24), 0);[m
+[36m@@ -82,8 +82,8 @@[m [mexports.weeklyEmailTemplate = function(emails) {[m
+         emailContent += '<table style="margin-top:25px;color:white;font-size:0.8rem;width:100%;background:#444455;height:120px;"><tr><td>Copyright © 2020 TradersAlloy OÜ, All rights reserved.<br/><br/><br/><br/><a style="color:#aaaaaa;" href="">Avregistrera</a></td></tr></table>';[m
+ [m
+         console.log('sending to: '+email.email);[m
+[31m-[m
+[31m-        send(email.email, emailSubject, emailContent);[m
+[32m+[m[32m        let subject = emailSubject.substring(0, emailSubject.length -2)[m
+[32m+[m[32m        send(email.email, subject, emailContent)[m
+     })[m
+ }[m
+ // let logoUrl = 'https://rapportkollen.se/images/logos/senofidk/' + item.ticker.replace(' ','_') + '.png';[m
+[1mdiff --git a/Backend/server/models/UserTx.js b/Backend/server/models/UserTx.js[m
+[1mdeleted file mode 100644[m
+[1mindex a71d53b..0000000[m
+[1m--- a/Backend/server/models/UserTx.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,30 +0,0 @@[m
+[31m-const db = require('sequelize');[m
+[31m-[m
+[31m-module.exports = (db, DataTypes) => {[m
+[31m-    const UserTx = db.define('UserTx', {[m
+[31m-            tx_id: {[m
+[31m-                allowNull: false,[m
+[31m-                autoIncrement: true,[m
+[31m-                primaryKey: true,[m
+[31m-                type: DataTypes.INTEGER[m
+[31m-            },[m
+[31m-            user_id: DataTypes.INTEGER,[m
+[31m-            account: DataTypes.STRING(10),[m
+[31m-            tx_date: DataTypes.DATEONLY,[m
+[31m-            tx_type: DataTypes.TEXT,[m
+[31m-            isin: DataTypes.STRING(20),[m
+[31m-            description: DataTypes.TEXT,[m
+[31m-            qty: DataTypes.FLOAT,[m
+[31m-            price: DataTypes.FLOAT,[m
+[31m-            amount: DataTypes.FLOAT,[m
+[31m-            commission: DataTypes.FLOAT,[m
+[31m-            currency: DataTypes.STRING(3),[m
+[31m-            exchange_rate: DataTypes.FLOAT[m
+[31m-        },[m
+[31m-        {tableName: 'user_tx'}[m
+[31m-    );[m
+[31m-[m
+[31m-    // UserTx.sync();[m
+[31m-[m
+[31m-    return UserTx;[m
+[31m-};[m
+[1mdiff --git a/Backend/server/router/index.js b/Backend/server/router/index.js[m
+[1mindex f351ad9..0ff44bf 100644[m
+[1m--- a/Backend/server/router/index.js[m
+[1m+++ b/Backend/server/router/index.js[m
+[36m@@ -1,5 +1,3 @@[m
+[31m-const UserTxController = require('../controllers').UserTxController;[m
+[31m-[m
+ //const WatchlistController2 = require('../controllers').WatchlistController;[m
+ const UserScreenController = require('../controllers').UserScreenController;[m
+ const UserController = require('../controllers').UserController;[m
+[36m@@ -181,11 +179,6 @@[m [mmodule.exports = (app) => {[m
+     app.get('/api/chartUserAnnotations/:insref', ChartController.fetchChartUserAnnotations);[m
+     app.get('/api/chartUserTrades/:insref', ChartController.fetchChartUserTrades);[m
+ [m
+[31m-    ///////////                     Avanza[m
+[31m-    app.post('/api/uploadAvanza/', UserTxController.save_UserTx);[m
+[31m-    app.get('/api/fetchTx/:user_id', UserTxController.fetchTx);[m
+[31m-[m
+[31m-[m
+ [m
+ };[m
+ [m
+[1mdiff --git a/Backend/server/scripts/getYahooDescription.js b/Backend/server/scripts/getYahooDescription.js[m
+[1mdeleted file mode 100644[m
+[1mindex dead933..0000000[m
+[1m--- a/Backend/server/scripts/getYahooDescription.js[m
+[1m+++ /dev/null[m
+[36m@@ -1,23 +0,0 @@[m
+[31m-var https   = require('https');[m
+[31m-var fs      = require('fs');[m
+[31m-var options = {[m
+[31m-    hostname  : 'finance.yahoo.com',[m
+[31m-    port      : 443,[m
+[31m-    path      : '/q?uhb=uhb2&fr=uh3_finance_vert_gs&type=2button&s=fb',[m
+[31m-    method    : 'GET'[m
+[31m-};[m
+[31m-[m
+[31m-var file = fs.createWriteStream("table1.csv");[m
+[31m-[m
+[31m-var req = https.request(options, function(res) {[m
+[31m-    console.log("statusCode: ", res.statusCode);[m
+[31m-    console.log("headers: ", res.headers);[m
+[31m-    res.on('data', function(d) {[m
+[31m-        file.write(d);[m
+[31m-    });[m
+[31m-});[m
+[31m-req.end();[m
+[31m-[m
+[31m-req.on('error', function(e) {[m
+[31m-    console.error(e);[m
+[31m-});[m
+[1mdiff --git a/Backend/src/app.js b/Backend/src/app.js[m
+[1mindex 9a84157..4522226 100644[m
+[1m--- a/Backend/src/app.js[m
+[1m+++ b/Backend/src/a

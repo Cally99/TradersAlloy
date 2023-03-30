@@ -1,0 +1,126 @@
+branchName = 'master'
+branchPath = "refs/heads/${branchName}"
+
+pipeline {
+    agent any
+    environment{
+        GIT_CREDS_ID = '2e805636-d145-48c2-820d-3490d6d7e458'
+        PROJECT_GIT_URL = 'git@github.com:andrewboddy/TradersAlloy.git'
+        DEPLOY_SERVER = credentials("server-ip-prod")
+        SRV_USER = 'trader'
+        SSH_OPT = '-o StrictHostKeyChecking=no'
+        HOME_DIR = '/home/trader'
+    }
+    stages {
+        stage('Git checkout') {
+            agent { label 'master' }
+            steps {
+                checkout([$class: 'GitSCM',
+                    branches: [[name: branchPath]],
+                    doGenerateSubmoduleConfigurations: false,
+                    extensions: [],
+                    gitTool: 'Default',
+                    submoduleCfg: [],
+                    userRemoteConfigs: [[
+                        url: PROJECT_GIT_URL,
+                        credentialsId: GIT_CREDS_ID
+                    ]]
+                ])
+                git branch:branchName,
+                    url: PROJECT_GIT_URL,
+                    credentialsId: GIT_CREDS_ID
+            }
+        }
+
+        stage('Backend') {
+            environment {
+                SRC = 'Backend'
+            }
+            stages {
+                stage('deploy') {
+                    steps {
+                        script {
+                            sh '''
+                        cat >./${SRC}/.env <<EOL
+PORT=${PORT}
+DB_username=${DB_USERNAME}
+DB_password=${DB_PASSWORD}
+DB_database=${DB_DATABASE}
+DB_host=${DB_HOST}
+DB_port=${DB_PORT}
+DB_dialect=${DB_DIALECT}
+FINWIRE_PATH=${FINWIRE_PATH}
+IMAGE_ADDR=${IMAGE_ADDR}
+EMAIL_NEWS_INTERIM=${EMAIL_NEWS_INTERIM}
+EMAIL_NEWS_INSIDER=${EMAIL_NEWS_INSIDER}
+SERVER_ADDR=${SERVER_ADDR}
+REDIS_PASS=${REDIS_PASS}
+MAILGUN_API_KEY=${MAILGUN_API_KEY}
+MAILGUN_DOMAIN=${MAILGUN_DOMAIN}
+FRONTEND_URL=${FRONTEND_URL}
+PRICE_MONTH=${PRICE_MONTH}
+PRICE_YEAR=${PRICE_YEAR}
+MILLISTREAM_PWD=${MILLISTREAM_PWD}
+INTERCOM_AUTHENTICATION=${INTERCOM_AUTHENTICATION}
+SCRAP_FLAG=${SCRAP_FLAG}
+EOL
+                            '''
+                            sh "tar -zcf backend.tar.gz ./${SRC}"
+                            sshagent (credentials: ['tradersalloy-prod']) {
+                                sh "scp ${SSH_OPT} ./backend.tar.gz* ${SRV_USER}@${DEPLOY_SERVER}:${HOME_DIR}"
+                                sh "ssh ${SSH_OPT} ${SRV_USER}@${DEPLOY_SERVER} \"bash -s\" < ./${SRC}/deploy/node.sh"
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        stage('Frontend') {
+            environment {
+                SRC = './Frontend'
+            }
+            stages {
+                stage('install dependencies') {
+                    steps {
+                        dir (SRC) {
+                            script {
+                                sh 'npm ci'
+                            }
+                        }
+                    }
+                }
+
+                stage('build') {
+                    steps {
+                        dir (SRC) {
+                            script {
+                                sh 'npm run build'
+                            }
+                        }
+                    }
+                }
+
+                stage('deploy') {
+                    steps {
+                        git branch:branchName,
+                            url: PROJECT_GIT_URL,
+                            credentialsId: GIT_CREDS_ID
+                        dir (SRC) {
+                            script {
+                                sh 'tar -zcf frontend.tar.gz ./dist'
+                                sshagent (credentials: ['tradersalloy-prod']) {
+                                    sh "scp ${SSH_OPT} ./frontend.tar.gz ${SRV_USER}@${DEPLOY_SERVER}:${HOME_DIR}"
+                                    sh "ssh ${SSH_OPT} ${SRV_USER}@${DEPLOY_SERVER} \"tar -zxf frontend.tar.gz -C ${SRC}\""
+                                    sh "ssh ${SSH_OPT} ${SRV_USER}@${DEPLOY_SERVER} \"rm frontend.tar.gz\""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

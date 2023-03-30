@@ -1,0 +1,19 @@
+{
+  "en": {
+    "page_identifiers": [
+      [
+        "income statements?",
+        "consolidated statement of income",
+        "statements? of comprehensive income",
+        "profit and loss"
+      ]
+    ],
+    "table_identifiers": [
+      [ "sales", "revenue" ],
+      [ "cost of sales", "cost of goods sold", "COGS" ],
+      [ "EBIT", "operating profit[/(]?", "operating income" ],
+      [ "before tax", "before taxes" ],
+      [ "for the period", "of the period" ]
+    ]
+  }
+}

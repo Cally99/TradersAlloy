@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "tam",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
